@@ -62,3 +62,8 @@ html {
 
 /* mobile css styles for 760px and below */
 
+body {
+	background-color:#030301;
+	color: #FFFFFF;
+	font-family: 'Inconsolata', monospace;
+}
