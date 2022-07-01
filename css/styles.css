@@ -67,3 +67,35 @@ body {
 	color: #FFFFFF;
 	font-family: 'Inconsolata', monospace;
 }
+
+/* homepage 760px */
+
+.ttplogo {
+	width: 300px;
+}
+
+.homebanner img {
+	width: 600px;
+}
+
+.homerecords img {
+	width: 600px;
+}
+
+.homecds img {
+	width: 600px;
+}
+
+.homedvds img {
+	width: 600px;
+}
+
+.buyselltrade img {
+	width: 600px;
+}
+
+.connectus img {
+	width: 600px;
+}
+
+/* products page 760px */
