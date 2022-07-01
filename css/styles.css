@@ -65,6 +65,30 @@ html {
 body {
 	background-color:#030301;
 	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: 'Unica One', cursive;
+}
+
+h2 {
+	font-size: 1rem;
+	font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+	font-size: 1rem;
+	font-family: 'Inconsolata', monospace;
+}
+
+h4 {
+	font-size: 1rem;
+	font-family: 'Inconsolata', monospace;
+}
+
+p {
+	font-size: 1rem;
 	font-family: 'Inconsolata', monospace;
 }
 
