@@ -68,11 +68,11 @@ body {
 	font-family: 'Inconsolata', monospace;
 }
 
-/* homepage 760px */
-
 .ttplogo {
 	width: 300px;
 }
+
+/* homepage 760px */
 
 .homebanner img {
 	width: 600px;
@@ -99,3 +99,19 @@ body {
 }
 
 /* products page 760px */
+
+.productsbanner img {
+	width: 600px;
+}
+
+.prodrecords img {
+	width: 600px;
+}
+
+.prodcds img {
+	width: 600px;
+}
+
+.proddvds img {
+	width: 600px;
+}
