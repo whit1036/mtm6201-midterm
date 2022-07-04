@@ -93,7 +93,10 @@ p {
 }
 
 .ttplogo {
-	width: 300px;
+	width: 400px;
+	margin: 0.5rem;
+	position: relative;
+	right: -5rem;
 }
 
 /* homepage 760px */
@@ -120,6 +123,19 @@ p {
 
 .connectimg {
 	width: 600px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	width: 37rem;
+	color: #ffffff;
+	background-color: red;
+}
+
+li a {
+	display: block;
 }
 
 /* products page 760px */
