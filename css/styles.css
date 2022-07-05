@@ -101,7 +101,7 @@ ul {
 	width: 400px;
 	margin: 0.5rem;
 	position: relative;
-	right: -5rem;
+	right: -6rem;
 }
 
 /* homepage 760px */
@@ -142,7 +142,7 @@ ul {
 li a {
 	display: block;
 	position: relative;
-	left: 11.5rem;
+	left: 12.4rem;
 	color: #FFFFFF;
 	text-decoration: none;
 	border-bottom: 2px solid #FF1B1C;
@@ -157,14 +157,25 @@ li a:hover {
 .bannertext {
 	margin: 0.5rem;
 	padding: 0.5rem;
+	display: block;
 	position: absolute;
-	top: 33rem;
+	top: 33.5rem;
 	width: 600px;
 	text-align: center;
 }
 
 .contactbutton {
-	
+	margin: 0;
+	padding: 0.5rem;
+	width: 8rem;
+	display: block;
+	position: relative;
+	top: -6rem;
+	left: 15rem;
+	color: #FF1B1C;
+	background-color: #030301;
+	font-family: 'Inconsolata', monospace;
+	font-size: large;
 }
 
 /* products page 760px */
