@@ -131,9 +131,12 @@ ul {
 }
 
 .homedvdimg {
+	opacity: 0.3;
 	margin: 0.5rem;
 	padding: 0.5rem;
 	width: 600px;
+	position: relative;
+	top: -3rem;
 }
 
 .buyselltradeimg {
@@ -236,6 +239,30 @@ li a:hover {
 	display: block;
 	position: absolute;
 	top: 94rem;
+	width: 575px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+}
+
+.dvdtext h1 {
+	margin: 0.8rem;
+	padding: 0.5rem;
+	display: block;
+	position: absolute;
+	top: 120rem;
+	width: 575px;
+	text-align: center;
+	color: #FF1B1C;
+	font-size: 3rem;
+}
+
+.dvdtext h3 {
+	margin: 0.8rem;
+	padding: 0.5rem;
+	display: block;
+	position: absolute;
+	top: 124rem;
 	width: 575px;
 	text-align: center;
 	color: #FFFFFF;
