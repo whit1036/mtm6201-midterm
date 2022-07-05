@@ -113,22 +113,35 @@ ul {
 }
 
 .homerecordimg {
+	opacity: 0.3;
+	margin: 0.5rem;
+	padding: 0.5rem;
 	width: 600px;
+	position: relative;
+	top: -3rem;
 }
 
 .homecdimg {
+	margin: 0.5rem;
+	padding: 0.5rem;
 	width: 600px;
 }
 
 .homedvdimg {
+	margin: 0.5rem;
+	padding: 0.5rem;
 	width: 600px;
 }
 
 .buyselltradeimg {
+	margin: 0.5rem;
+	padding: 0.5rem;
 	width: 600px;
 }
 
 .connectimg {
+	margin: 0.5rem;
+	padding: 0.5rem;
 	width: 600px;
 }
 
@@ -176,6 +189,30 @@ li a:hover {
 	background-color: #030301;
 	font-family: 'Inconsolata', monospace;
 	font-size: large;
+}
+
+.recordtext h1 {
+	margin: 0.8rem;
+	padding: 0.5rem;
+	display: block;
+	position: absolute;
+	top: 63rem;
+	width: 575px;
+	text-align: center;
+	color: #FF1B1C;
+	font-size: 3rem;
+}
+
+.recordtext h3 {
+	margin: 0.8rem;
+	padding: 0.5rem;
+	display: block;
+	position: absolute;
+	top: 67rem;
+	width: 575px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.2rem;
 }
 
 /* products page 760px */
