@@ -107,6 +107,8 @@ ul {
 /* homepage 760px */
 
 .homebannerimg {
+	margin: 0.5rem;
+	padding: 0.5rem;
 	width: 600px;
 }
 
@@ -150,6 +152,19 @@ li a {
 li a:hover {
 	background-color: #FF1B1C;
 	color:#FFFFFF;
+}
+
+.bannertext {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	position: absolute;
+	top: 33rem;
+	width: 600px;
+	text-align: center;
+}
+
+.contactbutton {
+	
 }
 
 /* products page 760px */
