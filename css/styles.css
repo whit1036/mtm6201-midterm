@@ -338,19 +338,34 @@ footer {
 /* products page 760px */
 
 .productsbanner img {
+	opacity: 0.3;
+	margin: 0.1rem;
+	padding: 0.3rem;
 	width: 400px;
 }
 
 .prodrecords img {
+	margin: 0.1rem;
+	padding: 0.3rem;
 	width: 400px;
+	position: relative;
+	top: -1.5rem;
 }
 
 .prodcds img {
+	margin: 0.1rem;
+	padding: 0.3rem;
 	width: 400px;
+	position: relative;
+	top: -1.5rem;
 }
 
 .proddvds img {
+	margin: 0.1rem;
+	padding: 0.3rem;
 	width: 400px;
+	position: relative;
+	top: -1.5rem;
 }
 
 /* contact page 760px */
