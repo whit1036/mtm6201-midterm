@@ -509,6 +509,7 @@ li a:hover {
 }
 
 .theowner img {
+	opacity: 0.5;
 	margin: 0.1rem;
 	padding: 0.3rem;
 	width: 400px;
@@ -545,11 +546,23 @@ li a:hover {
 	padding: 0.3rem;
 	display: block;
 	position: absolute;
-	top: 70rem;
+	top: 62rem;
 	width: 400px;
 	text-align: center;
-	color: #FF1B1C;
+	color: #FFFFFF;
 	font-size: 2.5rem;
+}
+
+.ownertext p {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 68rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.2rem;
 }
 
 .hourstext h1 {
@@ -557,10 +570,10 @@ li a:hover {
 	padding: 0.3rem;
 	display: block;
 	position: absolute;
-	top: 81rem;
+	top: 79rem;
 	width: 400px;
 	text-align: center;
-	color: #FF1B1C;
+	color: #FFFFFF;
 	font-size: 2.5rem;
 }
 
@@ -569,7 +582,31 @@ li a:hover {
 	padding: 0.3rem;
 	display: block;
 	position: absolute;
-	top: 84rem;
+	top: 82rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+}
+
+.locationtext h1 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 97rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 2.5rem;
+}
+
+.locationtext p {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 100rem;
 	width: 400px;
 	text-align: center;
 	color: #FFFFFF;
@@ -586,7 +623,7 @@ li a:hover {
 	padding: 0.3rem;
 	display: block;
 	position: absolute;
-	top: 136.5rem;
+	top: 127rem;
 	width: 400px;
 	text-align: center;
 	color: #FFFFFF;
