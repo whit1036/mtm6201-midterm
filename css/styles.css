@@ -150,7 +150,7 @@ ul {
 }
 
 .connectimg {
-	opacity: 0.6;
+	opacity: 0.2;
 	margin: 0.1rem;
 	padding: 0.3rem;
 	width: 400px;
@@ -298,6 +298,41 @@ li a:hover {
 	text-align: center;
 	color: #FFFFFF;
 	font-size: 1rem;
+}
+
+.connecttext h1 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 110rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 2.5rem;
+}
+
+.socialicons {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 114rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 4rem;
+}
+
+footer {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 123rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
 }
 
 /* products page 760px */
