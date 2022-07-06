@@ -79,7 +79,7 @@ h2 {
 
 h3 {
 	font-size: 1rem;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Unica One', cursive;
 }
 
 h4 {
@@ -324,7 +324,7 @@ li a:hover {
 	font-size: 4rem;
 }
 
-footer {
+.homepagefooter {
 	margin: 0.1rem;
 	padding: 0.3rem;
 	display: block;
@@ -338,7 +338,7 @@ footer {
 /* products page 760px */
 
 .productsbanner img {
-	opacity: 0.3;
+	opacity: 0.4;
 	margin: 0.1rem;
 	padding: 0.3rem;
 	width: 400px;
@@ -349,7 +349,7 @@ footer {
 	padding: 0.3rem;
 	width: 400px;
 	position: relative;
-	top: -1.5rem;
+	top: 0.1rem;
 }
 
 .prodcds img {
@@ -357,7 +357,7 @@ footer {
 	padding: 0.3rem;
 	width: 400px;
 	position: relative;
-	top: -1.5rem;
+	top: 18rem;
 }
 
 .proddvds img {
@@ -365,7 +365,138 @@ footer {
 	padding: 0.3rem;
 	width: 400px;
 	position: relative;
-	top: -1.5rem;
+	top: 31.5rem;
+}
+
+.productstext h1 {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+	top: 30rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 2.5rem;
+}
+
+.recordproducttext h1 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 57rem;
+	width: 400px;
+	text-align: left;
+	color: #FF1B1C;
+	font-size: 2.5rem;
+}
+
+.recordproducttext p {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 59.5rem;
+	width: 400px;
+	text-align: left;
+	color: #7C898B;
+	font-size: 1rem;
+}
+
+.recordproducttext h3 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 73rem;
+	width: 400px;
+	text-align: center;
+	color: #FF1B1C;
+	font-size: 1.2rem;
+}
+
+.cdproducttext h1 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 91rem;
+	width: 400px;
+	text-align: left;
+	color: #FF1B1C;
+	font-size: 2.5rem;
+}
+
+.cdproducttext p {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 94rem;
+	width: 400px;
+	text-align: left;
+	color: #7C898B;
+	font-size: 1rem;
+}
+
+.cdproducttext h3 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 103.5rem;
+	width: 400px;
+	text-align: center;
+	color: #FF1B1C;
+	font-size: 1.2rem;
+}
+
+.dvdproducttext h1 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 121.6rem;
+	width: 400px;
+	text-align: left;
+	color: #FF1B1C;
+	font-size: 2.5rem;
+}
+
+.dvdproducttext p {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 124.5rem;
+	width: 400px;
+	text-align: left;
+	color: #7C898B;
+	font-size: 1rem;
+}
+
+.dvdproducttext h3 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 134rem;
+	width: 400px;
+	text-align: center;
+	color: #FF1B1C;
+	font-size: 1.2rem;
+}
+
+.productsfooter {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 136.5rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
 }
 
 /* contact page 760px */
