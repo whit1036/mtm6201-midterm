@@ -502,17 +502,92 @@ li a:hover {
 /* contact page 760px */
 
 .contactbanner img {
+	opacity: 0.6;
+	margin: 0.1rem;
+	padding: 0.3rem;
 	width: 400px;
 }
 
 .theowner img {
+	margin: 0.1rem;
+	padding: 0.3rem;
 	width: 400px;
 }
 
 .storehours img {
+	opacity: 0.5;
+	margin: 0.1rem;
+	padding: 0.3rem;
 	width: 400px;
 }
 
 .thelocation img {
+	opacity: 0.5;
+	margin: 0.1rem;
+	padding: 0.3rem;
 	width: 400px;
+}
+
+.contacttext h1 {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+	top: 30.5rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 2.5rem;
+}
+
+.ownertext h1 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 70rem;
+	width: 400px;
+	text-align: center;
+	color: #FF1B1C;
+	font-size: 2.5rem;
+}
+
+.hourstext h1 {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 81rem;
+	width: 400px;
+	text-align: center;
+	color: #FF1B1C;
+	font-size: 2.5rem;
+}
+
+.hourstext p {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 84rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+}
+
+.googlemap {
+	margin: 0.1rem;
+	padding: 0.3rem;
+}
+
+.contactfooter {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 136.5rem;
+	width: 400px;
+	text-align: center;
+	color: #FFFFFF;
 }
