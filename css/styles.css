@@ -117,6 +117,18 @@ ul {
 	width: 400px;
 }
 
+.homerecordimgdesktop {
+	display: none;
+}
+
+.homecdimgdesktop {
+	display: none;
+}
+
+.homedvdimgdesktop {
+	display: none;
+}
+
 .homerecordimg {
 	opacity: 0.3;
 	margin: 0.1rem;
@@ -675,27 +687,48 @@ li a:hover {
 	}
 
 	.homerecordimg {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 400px;
-		height: 300px;
+		display: none;
 	}
 	
 	.homecdimg {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 400px;
-		height: 320px;
+		display: none;
 	}
 	
 	.homedvdimg {
+		display: none;
+	}
+
+	.homerecordimgdesktop {
+		opacity: 0.3;
+		margin: 0.1rem;
+		padding: 0.3rem;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 400px;
-		height: 320px;
+		position: relative;
+		top: -2.5rem;
+	}
+	
+	.homecdimgdesktop {
+		opacity: 0.3;
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: -2.5rem;
+	}
+	
+	.homedvdimgdesktop {
+		opacity: 0.3;
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: -2.5rem;
 	}
 	
 	.buyselltradeimg {
