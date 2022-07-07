@@ -758,4 +758,76 @@ li a:hover {
 		grid-template-areas:
 		"record cd dvd";
 	}
+
+	.recordtext h1 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 78rem;
+		width: 400px;
+		text-align: center;
+		color: #FF1B1C;
+		font-size: 3.5rem;
+	}
+	
+	.recordtext h3 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 83rem;
+		width: 400px;
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 1.5rem;
+	}
+
+	.cdtext h1 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 78rem;
+		width: 400px;
+		text-align: center;
+		color: #FF1B1C;
+		font-size: 3.5rem;
+	}
+	
+	.cdtext h3 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 83rem;
+		width: 400px;
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 1.5rem;
+	}
+
+	.dvdtext h1 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 78rem;
+		width: 400px;
+		text-align: center;
+		color: #FF1B1C;
+		font-size: 3.5rem;
+	}
+	
+	.dvdtext h3 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 83rem;
+		width: 400px;
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 1.5rem;
+	}
 }
