@@ -97,11 +97,15 @@ ul {
 	font-family: 'Inconsolata', monospace;
 }
 
-.ttplogo {
+.ttpmobilelogo {
 	width: 300px;
 	margin: 0.1rem;
 	position: relative;
 	right: -3rem;
+}
+
+.ttpdesktoplogo {
+	display: none;
 }
 
 /* homepage 760px */
@@ -631,8 +635,16 @@ li a:hover {
 
 @media screen and (min-width: 800px) {
 	
-	.ttplogo {
+	.ttpmobilelogo {
 		display: none;
+	}
+
+	.ttpdesktoplogo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1100px;
+		padding: 1rem;
 	}
 
 	ul {
