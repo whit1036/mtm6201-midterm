@@ -647,6 +647,8 @@ li a:hover {
 
 @media screen and (min-width: 800px) {
 	
+	/* homepage styles 1200px */
+	
 	.ttpmobilelogo {
 		display: none;
 	}
@@ -707,6 +709,7 @@ li a:hover {
 		margin-right: auto;
 		position: relative;
 		top: -2.5rem;
+		grid-area: record
 	}
 	
 	.homecdimgdesktop {
@@ -718,6 +721,7 @@ li a:hover {
 		margin-right: auto;
 		position: relative;
 		top: -2.5rem;
+		grid-area: cd;
 	}
 	
 	.homedvdimgdesktop {
@@ -729,6 +733,7 @@ li a:hover {
 		margin-right: auto;
 		position: relative;
 		top: -2.5rem;
+		grid-area: dvd;
 	}
 	
 	.buyselltradeimg {
@@ -743,5 +748,14 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 1200px;
+	}
+
+	.grid {
+		display: grid;
+		margin: auto;
+		max-width: 1200px;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-areas:
+		"record cd dvd";
 	}
 }
