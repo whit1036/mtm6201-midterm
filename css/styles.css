@@ -682,6 +682,7 @@ li a:hover {
 	}
 
 	.homebannerimg {
+		opacity: 0.4;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
