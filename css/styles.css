@@ -196,12 +196,22 @@ li a:hover {
 	color:#FFFFFF;
 }
 
-.bannertext {
+.homebanner h1 {
 	margin: 0.1rem;
 	padding: 0.3rem;
 	display: block;
 	position: absolute;
 	top: 23.8rem;
+	width: 400px;
+	text-align: center;
+}
+
+.homebanner p {
+	margin: 0.1rem;
+	padding: 0.3rem;
+	display: block;
+	position: absolute;
+	top: 27em;
 	width: 400px;
 	text-align: center;
 }
@@ -709,7 +719,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		top: -2.5rem;
+		top: -5rem;
 		grid-area: record
 	}
 	
@@ -721,7 +731,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		top: -2.5rem;
+		top: -5rem;
 		grid-area: cd;
 	}
 	
@@ -733,7 +743,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		top: -2.5rem;
+		top: -5rem;
 		grid-area: dvd;
 	}
 	
@@ -742,6 +752,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 1200px;
+		top: -5rem;
 	}
 	
 	.connectimg {
@@ -749,6 +760,30 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 1200px;
+		top: -11.5rem;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.bannertext h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+	.bannertext p {
+		display: block;
+		margin: 0 auto;
+		padding: -30rem;
+		position: relative;
+		top: -25rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 1.5rem;
 	}
 
 	.grid {
@@ -832,5 +867,53 @@ li a:hover {
 		font-size: 1.5rem;
 	}
 
-	
+	.buyselltradetext h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -27rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 3.5rem;
+	}
+
+	.buyselltradetext h3 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -26rem;
+		width: 800px;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	.connecttext h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -42rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 3.5rem;
+	}
+
+	.socialicons {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -40rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 10rem;
+	}
+
+	.homepagefooter h4 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: 70rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 1.2rem;
+	}
 }
