@@ -907,11 +907,11 @@ li a:hover {
 		font-size: 10rem;
 	}
 
-	.homepagefooter h4 {
+	.homepagefooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: 70rem;
+		top: -25rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 1.2rem;
