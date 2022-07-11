@@ -919,6 +919,16 @@ li a:hover {
 
 	/* products styles 1200px */
 
+	.productsbanner h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 3.5rem;
+	}
+	
 	.productsbanner img {
 		opacity: 0.4;
 		display: block;
@@ -932,6 +942,8 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
+		left: 18.7rem;
+		top: 1.5rem;
 	}
 
 	.prodcds img {
@@ -939,7 +951,8 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
-		top: 0.5rem;
+		top: -22rem;
+		left: 18.7rem;
 	}
 
 	.proddvds img {
@@ -947,41 +960,117 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
-		top: 28rem;
+		top: -41rem;
+		left: 18.7rem;
 	}
 
-	.recordproducttext {
+	.recordproducttext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -25rem;
+		font-size: 3.5rem;
+	}
+
+	.recordproducttext p {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
+		position: relative;
+		top: -25rem;
+		left: -18.5rem;
+		font-size: 1.5rem;
 	}
 
-	.cdproducttext {
+	.recordproducttext h3 {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
+		position: relative;
+		top: -25rem;
+		left: -19rem;
+		font-size: 2rem;
 	}
 
-	.dvdproducttext {
+	.cdproducttext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -45rem;
+		font-size: 3.5rem;
+	}
+
+	.cdproducttext p {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
+		position: relative;
+		top: -45rem;
+		left: -18.5rem;
+		font-size: 1.5rem;
 	}
 
-	.mainproducts {
-		display: grid;
+	.cdproducttext h3 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -45rem;
+		left: -19rem;
+		font-size: 2rem;
+	}
+
+	.dvdproducttext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -65rem;
+		font-size: 3.5rem;
+	}
+
+	.dvdproducttext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -65rem;
+		left: -18.5rem;
+		font-size: 1.5rem;
+	}
+
+	.dvdproducttext h3 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -65rem;
+		left: -19rem;
+		font-size: 2rem;
 	}
 
 	.productsfooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: 28rem;
+		top: -60rem;
 		width: 1200px;
 		text-align: center;
-		font-size: 1.2rem;
+		font-size: 1.52rem;
+	}
+
+	body {
+		min-height: 100vh;
 	}
 }
