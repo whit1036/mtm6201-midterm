@@ -916,4 +916,14 @@ li a:hover {
 		text-align: center;
 		font-size: 1.2rem;
 	}
+
+	/* products styles 1200px */
+
+	.productsbanner img {
+		opacity: 0.4;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+	}
 }
