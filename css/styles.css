@@ -1195,4 +1195,14 @@ li a:hover {
 		position: relative;
 		top: -23rem;
 	}
+
+	.contactfooter {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -22rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 1.52rem;
+	}
 }
