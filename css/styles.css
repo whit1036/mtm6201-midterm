@@ -639,9 +639,13 @@ li a:hover {
 	font-size: 1.2rem;
 }
 
-.googlemap {
+.googlemapmobile {
 	margin: 0.1rem;
 	padding: 0.3rem;
+}
+
+.googlemapdesktop {
+	display: none;
 }
 
 .contactfooter {
@@ -760,9 +764,9 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 1200px;
+		height: 50vh;
 		top: -11.5rem;
 		position: relative;
-		bottom: 10px;
 	}
 
 	.bannertext h1 {
@@ -1068,5 +1072,127 @@ li a:hover {
 		width: 1200px;
 		text-align: center;
 		font-size: 1.52rem;
+		height: -500vh;
+	}
+
+	/* contact page 1200px */
+
+	.contactbanner img {
+		opacity: 0.4;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+	}
+
+	.contacttext h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 3.5rem;
+	}
+
+	.theowner img {
+		opacity: 0.4;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -3rem;
+	}
+
+	.ownertext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -15rem;
+		font-size: 2.5rem;
+	}
+
+	.ownertext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -15rem;
+		font-size: 1.5rem;
+	}
+
+	.storehours img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -8rem;
+	}
+
+	.hourstext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -35rem;
+		font-size: 3.5rem;
+	}
+	
+	.hourstext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 800px;
+		position: relative;
+		top: -35rem;
+		font-size: 2.5rem;
+	}
+
+	.thelocation img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -17rem;
+	}
+
+	.locationtext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -45rem;
+		font-size: 3.5rem;
+	}
+
+	.locationtext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -45rem;
+		font-size: 2.5rem;
+	}
+
+	.googlemapmobile {
+		display: none;
+	}
+
+	.googlemapdesktop {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -23rem;
 	}
 }
