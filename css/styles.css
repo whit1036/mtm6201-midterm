@@ -938,4 +938,16 @@ li a:hover {
 		margin-right: auto;
 		width: 1200px;
 	}
+
+	.prodrecordimg {
+		display: none;
+	}
+
+	.prodcdimg {
+		display: none;
+	}
+
+	.proddvdimg {
+		display: none;
+	}
 }
