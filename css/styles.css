@@ -1069,8 +1069,4 @@ li a:hover {
 		text-align: center;
 		font-size: 1.52rem;
 	}
-
-	body {
-		min-height: 100vh;
-	}
 }
