@@ -370,18 +370,6 @@ li a:hover {
 	width: 400px;
 }
 
-.prodrecordimgdesktop {
-	display: none;
-}
-
-.prodcdimgdesktop {
-	display: none;
-}
-
-.proddvddesktop {
-	display: none;
-}
-
 .prodrecords img {
 	margin: 0.1rem;
 	padding: 0.3rem;
@@ -939,24 +927,61 @@ li a:hover {
 		width: 1200px;
 	}
 
-	.prodrecordimg {
-		display: none;
-	}
-
-	.prodcdimg {
-		display: none;
-	}
-
-	.proddvdimg {
-		display: none;
-	}
-
-	.prodrecordimgdesktop {
-		position: absolute;
-		left: 50rem;
+	.prodrecords img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		width: 600px;
+	}
+
+	.prodcds img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		top: 0.5rem;
+	}
+
+	.proddvds img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		top: 28rem;
+	}
+
+	.recordproducttext {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+	}
+
+	.cdproducttext {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+	}
+
+	.dvdproducttext {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+	}
+
+	.mainproducts {
+		display: grid;
+	}
+
+	.productsfooter {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: 28rem;
 		width: 1200px;
+		text-align: center;
+		font-size: 1.2rem;
 	}
 }
