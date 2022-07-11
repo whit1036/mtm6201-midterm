@@ -370,6 +370,18 @@ li a:hover {
 	width: 400px;
 }
 
+.prodrecordimgdesktop {
+	display: none;
+}
+
+.prodcdimgdesktop {
+	display: none;
+}
+
+.proddvddesktop {
+	display: none;
+}
+
 .prodrecords img {
 	margin: 0.1rem;
 	padding: 0.3rem;
