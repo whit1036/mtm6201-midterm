@@ -950,4 +950,13 @@ li a:hover {
 	.proddvdimg {
 		display: none;
 	}
+
+	.prodrecordimgdesktop {
+		position: absolute;
+		left: 50rem;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+	}
 }
