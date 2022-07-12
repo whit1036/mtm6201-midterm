@@ -97,6 +97,7 @@ ul {
 	font-family: 'Inconsolata', monospace;
 }
 
+/* Mobile Styles */
 .ttpmobilelogo {
 	width: 300px;
 	margin: 0.1rem;
@@ -659,7 +660,547 @@ li a:hover {
 	color: #FFFFFF;
 }
 
-@media screen and (min-width: 800px) {
+/* Tablet Styles */
+@media screen and (min-width: 768px) {
+	.ttpmobilelogo {
+		display: none;
+	}
+
+	.ttpdesktoplogo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 750px;
+		padding: 0.5rem;
+	}
+
+	ul {
+		width: 15rem;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	li a {
+		display: block;
+		position: relative;
+		color: #FFFFFF;
+		text-decoration: none;
+		border-bottom: 2px solid #FF1B1C;
+		text-align: center;
+		left: 0;
+		top: -0.5rem;
+	}
+
+	.homebannerimg {
+		opacity: 0.4;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 750px;
+	}
+
+	.homerecordimg {
+		display: none;
+	}
+	
+	.homecdimg {
+		display: none;
+	}
+	
+	.homedvdimg {
+		display: none;
+	}
+
+	.homerecordimg {
+		opacity: 0.3;
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 750px;
+		top: -5rem;
+		grid-area: record;
+	}
+	
+	.homecdimg{
+		opacity: 0.3;
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 750px;
+		top: -5rem;
+		grid-area: cd;
+	}
+	
+	.homedvdimg {
+		opacity: 0.3;
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 750px;
+		top: -5rem;
+		grid-area: dvd;
+	}
+	
+	.buyselltradeimg {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 750px;
+		top: -5rem;
+	}
+	
+	.connectimg {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 750px;
+		height: 50vh;
+		top: -11.5rem;
+		position: relative;
+	}
+
+	.bannertext h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+	.bannertext p {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	.recordtext h1 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 78rem;
+		width: 750px;
+		text-align: center;
+		color: #FF1B1C;
+		font-size: 3.5rem;
+	}
+	
+	.recordtext h3 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 83rem;
+		width: 400px;
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 1.5rem;
+	}
+
+	.cdtext h1 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 78rem;
+		width: 400px;
+		text-align: center;
+		color: #FF1B1C;
+		font-size: 3.5rem;
+	}
+	
+	.cdtext h3 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 83rem;
+		width: 400px;
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 1.5rem;
+	}
+
+	.dvdtext h1 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 78rem;
+		width: 400px;
+		text-align: center;
+		color: #FF1B1C;
+		font-size: 3.5rem;
+	}
+	
+	.dvdtext h3 {
+		margin: 0.1rem;
+		padding: 0.3rem;
+		display: block;
+		position: absolute;
+		top: 83rem;
+		width: 400px;
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 1.5rem;
+	}
+
+	.buyselltradetext h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -27rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 3.5rem;
+	}
+
+	.buyselltradetext h3 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -26rem;
+		width: 800px;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	.connecttext h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -42rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 3.5rem;
+	}
+
+	.socialicons {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -40rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 10rem;
+	}
+
+	.homepagefooter {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 1.2rem;
+		bottom: 0;
+	}
+
+	/* products styles 1200px */
+
+	.productsbanner h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 3.5rem;
+	}
+	
+	.productsbanner img {
+		opacity: 0.4;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+	}
+
+	.prodrecords img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		left: 18.7rem;
+		top: 1.5rem;
+	}
+
+	.prodcds img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		top: -22rem;
+		left: 18.7rem;
+	}
+
+	.proddvds img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		top: -41rem;
+		left: 18.7rem;
+	}
+
+	.recordproducttext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -25rem;
+		font-size: 3.5rem;
+	}
+
+	.recordproducttext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -25rem;
+		left: -18.5rem;
+		font-size: 1.5rem;
+	}
+
+	.recordproducttext h3 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -25rem;
+		left: -19rem;
+		font-size: 2rem;
+	}
+
+	.cdproducttext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -45rem;
+		font-size: 3.5rem;
+	}
+
+	.cdproducttext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -45rem;
+		left: -18.5rem;
+		font-size: 1.5rem;
+	}
+
+	.cdproducttext h3 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -45rem;
+		left: -19rem;
+		font-size: 2rem;
+	}
+
+	.dvdproducttext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -65rem;
+		font-size: 3.5rem;
+	}
+
+	.dvdproducttext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -65rem;
+		left: -18.5rem;
+		font-size: 1.5rem;
+	}
+
+	.dvdproducttext h3 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -65rem;
+		left: -19rem;
+		font-size: 2rem;
+	}
+
+	.productsfooter {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -60rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 1.52rem;
+	}
+
+	/* contact page 1200px */
+
+	.contactbanner img {
+		opacity: 0.4;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+	}
+
+	.contacttext h1 {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 3.5rem;
+	}
+
+	.theowner img {
+		opacity: 0.4;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		position: relative;
+		top: -3rem;
+	}
+
+	.ownertext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -15rem;
+		font-size: 2.5rem;
+	}
+
+	.ownertext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -15rem;
+		font-size: 1.5rem;
+	}
+
+	.storehours img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -8rem;
+	}
+
+	.hourstext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -35rem;
+		font-size: 3.5rem;
+	}
+	
+	.hourstext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 800px;
+		position: relative;
+		top: -35rem;
+		font-size: 2.5rem;
+	}
+
+	.thelocation img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -17rem;
+	}
+
+	.locationtext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -45rem;
+		font-size: 3.5rem;
+	}
+
+	.locationtext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -45rem;
+		font-size: 2.5rem;
+	}
+
+	.googlemapmobile {
+		display: none;
+	}
+
+	.googlemapdesktop {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -23rem;
+	}
+
+	.contactfooter {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: -22rem;
+		width: 1200px;
+		text-align: center;
+		font-size: 1.52rem;
+	}
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1200px) {
 	
 	/* homepage styles 1200px */
 	
