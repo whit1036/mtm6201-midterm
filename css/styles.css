@@ -645,6 +645,10 @@ li a:hover {
 	padding: 0.3rem;
 }
 
+.googlemaptablet {
+	display: none;
+}
+
 .googlemapdesktop {
 	display: none;
 }
@@ -724,7 +728,6 @@ li a:hover {
 		position: relative;
 		width: 750px;
 		top: -5rem;
-		grid-area: record;
 	}
 	
 	.homecdimg{
@@ -737,7 +740,6 @@ li a:hover {
 		position: relative;
 		width: 750px;
 		top: -5rem;
-		grid-area: cd;
 	}
 	
 	.homedvdimg {
@@ -750,7 +752,6 @@ li a:hover {
 		position: relative;
 		width: 750px;
 		top: -5rem;
-		grid-area: dvd;
 	}
 	
 	.buyselltradeimg {
@@ -776,9 +777,9 @@ li a:hover {
 		margin: 0 auto;
 		position: relative;
 		top: -25rem;
-		width: 1200px;
+		width: 750px;
 		text-align: center;
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
 	.bannertext p {
@@ -786,80 +787,68 @@ li a:hover {
 		margin: 0 auto;
 		position: relative;
 		top: -25rem;
-		width: 1200px;
+		width: 750px;
 		text-align: center;
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 
 	.recordtext h1 {
-		margin: 0.1rem;
-		padding: 0.3rem;
 		display: block;
-		position: absolute;
-		top: 78rem;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
 		width: 750px;
 		text-align: center;
-		color: #FF1B1C;
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 	
 	.recordtext h3 {
-		margin: 0.1rem;
-		padding: 0.3rem;
 		display: block;
-		position: absolute;
-		top: 83rem;
-		width: 400px;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 750px;
 		text-align: center;
-		color: #FFFFFF;
 		font-size: 1.5rem;
 	}
 
 	.cdtext h1 {
-		margin: 0.1rem;
-		padding: 0.3rem;
 		display: block;
-		position: absolute;
-		top: 78rem;
-		width: 400px;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 750px;
 		text-align: center;
-		color: #FF1B1C;
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 	
 	.cdtext h3 {
-		margin: 0.1rem;
-		padding: 0.3rem;
 		display: block;
-		position: absolute;
-		top: 83rem;
-		width: 400px;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 750px;
 		text-align: center;
-		color: #FFFFFF;
 		font-size: 1.5rem;
 	}
 
 	.dvdtext h1 {
-		margin: 0.1rem;
-		padding: 0.3rem;
 		display: block;
-		position: absolute;
-		top: 78rem;
-		width: 400px;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 750px;
 		text-align: center;
-		color: #FF1B1C;
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 	
 	.dvdtext h3 {
-		margin: 0.1rem;
-		padding: 0.3rem;
 		display: block;
-		position: absolute;
-		top: 83rem;
-		width: 400px;
+		margin: 0 auto;
+		position: relative;
+		top: -25rem;
+		width: 750px;
 		text-align: center;
-		color: #FFFFFF;
 		font-size: 1.5rem;
 	}
 
@@ -867,18 +856,18 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -27rem;
-		width: 1200px;
+		top: -20rem;
+		width: 750px;
 		text-align: center;
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.buyselltradetext h3 {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -26rem;
-		width: 800px;
+		top: -20rem;
+		width: 750px;
 		text-align: center;
 		font-size: 1.5rem;
 	}
@@ -887,31 +876,30 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -42rem;
-		width: 1200px;
+		top: -40rem;
+		width: 750px;
 		text-align: center;
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.socialicons {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -40rem;
-		width: 1200px;
+		top: -35rem;
+		width: 750px;
 		text-align: center;
-		font-size: 10rem;
+		font-size: 7rem;
 	}
 
 	.homepagefooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
-		width: 1200px;
+		top: -22rem;
+		width: 760px;
 		text-align: center;
 		font-size: 1.2rem;
-		bottom: 0;
 	}
 
 	/* products styles 1200px */
@@ -920,8 +908,8 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
-		width: 1200px;
+		top: -18rem;
+		width: 750px;
 		text-align: center;
 		font-size: 3.5rem;
 	}
@@ -931,43 +919,40 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 	}
 
 	.prodrecords img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
-		left: 18.7rem;
-		top: 1.5rem;
+		width: 750px;
+		top: -3rem;
 	}
 
 	.prodcds img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
-		top: -22rem;
-		left: 18.7rem;
+		width: 750px;
+		top: -3rem;
 	}
 
 	.proddvds img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
-		top: -41rem;
-		left: 18.7rem;
+		width: 750px;
+		top: -3rem;
 	}
 
 	.recordproducttext h1 {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
-		top: -25rem;
+		top: -3rem;
 		font-size: 3.5rem;
 	}
 
@@ -975,10 +960,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
+		width: 750px;
 		position: relative;
-		top: -25rem;
-		left: -18.5rem;
+		top: -3rem;
 		font-size: 1.5rem;
 	}
 
@@ -988,8 +972,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -25rem;
-		left: -19rem;
+		top: -3rem;
 		font-size: 2rem;
 	}
 
@@ -997,9 +980,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
-		top: -45rem;
+		top: -3rem;
 		font-size: 3.5rem;
 	}
 
@@ -1007,10 +990,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
+		width: 750px;
 		position: relative;
-		top: -45rem;
-		left: -18.5rem;
+		top: -3rem;
 		font-size: 1.5rem;
 	}
 
@@ -1020,8 +1002,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -45rem;
-		left: -19rem;
+		top: -3rem;
 		font-size: 2rem;
 	}
 
@@ -1029,9 +1010,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
-		top: -65rem;
+		top: -3rem;
 		font-size: 3.5rem;
 	}
 
@@ -1039,10 +1020,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
+		width: 750px;
 		position: relative;
-		top: -65rem;
-		left: -18.5rem;
+		top: -3rem;
 		font-size: 1.5rem;
 	}
 
@@ -1052,8 +1032,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -65rem;
-		left: -19rem;
+		top: -3rem;
 		font-size: 2rem;
 	}
 
@@ -1061,10 +1040,10 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -60rem;
-		width: 1200px;
+		top: -2rem;
+		width: 760px;
 		text-align: center;
-		font-size: 1.52rem;
+		font-size: 1.2rem;
 	}
 
 	/* contact page 1200px */
@@ -1074,15 +1053,15 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 	}
 
 	.contacttext h1 {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
-		width: 1200px;
+		top: -18rem;
+		width: 600px;
 		text-align: center;
 		font-size: 3.5rem;
 	}
@@ -1101,7 +1080,7 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
 		top: -15rem;
 		font-size: 2.5rem;
@@ -1111,7 +1090,7 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
 		top: -15rem;
 		font-size: 1.5rem;
@@ -1121,7 +1100,7 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
 		top: -8rem;
 	}
@@ -1130,70 +1109,74 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
-		top: -35rem;
-		font-size: 3.5rem;
+		top: -25rem;
+		font-size: 2.5rem;
 	}
 	
 	.hourstext p {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 800px;
+		width: 750px;
 		position: relative;
-		top: -35rem;
-		font-size: 2.5rem;
+		top: -25rem;
+		font-size: 1.5rem;
 	}
 
 	.thelocation img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
-		top: -17rem;
+		top: -13rem;
 	}
 
 	.locationtext h1 {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
-		top: -45rem;
-		font-size: 3.5rem;
+		top: -30rem;
+		font-size: 2.5rem;
 	}
 
 	.locationtext p {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
-		top: -45rem;
-		font-size: 2.5rem;
+		top: -30rem;
+		font-size: 1.5rem;
 	}
 
 	.googlemapmobile {
 		display: none;
 	}
 
-	.googlemapdesktop {
+	.googlemaptablet {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1200px;
+		width: 750px;
 		position: relative;
-		top: -23rem;
+		top: -17rem;
+	}
+
+	.googlemapdesktop {
+		display: none;
 	}
 
 	.contactfooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -22rem;
-		width: 1200px;
+		top: -15rem;
+		width: 750px;
 		text-align: center;
 		font-size: 1.52rem;
 	}
@@ -1723,6 +1706,10 @@ li a:hover {
 	}
 
 	.googlemapmobile {
+		display: none;
+	}
+
+	.googlemaptablet {
 		display: none;
 	}
 
