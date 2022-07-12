@@ -782,7 +782,6 @@ li a:hover {
 	.bannertext p {
 		display: block;
 		margin: 0 auto;
-		padding: -30rem;
 		position: relative;
 		top: -25rem;
 		width: 1200px;
@@ -1072,7 +1071,6 @@ li a:hover {
 		width: 1200px;
 		text-align: center;
 		font-size: 1.52rem;
-		height: -500vh;
 	}
 
 	/* contact page 1200px */
