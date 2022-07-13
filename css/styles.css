@@ -327,28 +327,12 @@ li a:hover {
 	font-size: 1rem;
 }
 
-.connecttext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
-	display: block;
-	position: absolute;
-	top: 110rem;
+.connectus {
+	background-image: url(../images/open-163975.jpeg);
+	background-size: 400px;
 	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
-	font-size: 2.5rem;
-}
-
-.socialicons {
-	margin: 0.1rem;
-	padding: 0.3rem;
-	display: block;
-	position: absolute;
-	top: 114rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
-	font-size: 4rem;
+	height: 200px;
+	background-repeat: no-repeat;
 }
 
 .homepagefooter {
@@ -356,7 +340,7 @@ li a:hover {
 	padding: 0.3rem;
 	display: block;
 	position: absolute;
-	top: 123rem;
+	top: 119rem;
 	width: 400px;
 	text-align: center;
 	color: #FFFFFF;
@@ -616,41 +600,31 @@ li a:hover {
 	font-size: 1.2rem;
 }
 
-.locationtext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
+.locationbackground {
+	background-image: url(../images/ottawa-4377995.jpeg);
+	background-size: 400px;
 	display: block;
-	position: absolute;
-	top: 97rem;
+	position: relative;
+	top: 0.5rem;
 	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
+	height: 250px;
+	background-repeat: no-repeat;
+}
+
+.thelocation h1 {
 	font-size: 2.5rem;
-}
-
-.locationtext p {
-	margin: 0.1rem;
-	padding: 0.3rem;
-	display: block;
-	position: absolute;
-	top: 100rem;
-	width: 400px;
 	text-align: center;
-	color: #FFFFFF;
-	font-size: 1.2rem;
+	position: relative;
+	top: 1rem;
+	width: 400px;
 }
 
-.googlemapmobile {
-	margin: 0.1rem;
-	padding: 0.3rem;
-}
-
-.googlemaptablet {
-	display: none;
-}
-
-.googlemapdesktop {
-	display: none;
+.thelocation p {
+	font-size: 1.5rem;
+	text-align: center;
+	position: relative;
+	top: 1rem;
+	width: 400px;
 }
 
 .contactfooter {
@@ -658,7 +632,7 @@ li a:hover {
 	padding: 0.3rem;
 	display: block;
 	position: absolute;
-	top: 127rem;
+	top: 108rem;
 	width: 400px;
 	text-align: center;
 	color: #FFFFFF;
@@ -704,6 +678,8 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 750px;
+		position: relative;
+		top: 2rem;
 	}
 
 	.homerecordimg {
@@ -727,7 +703,7 @@ li a:hover {
 		margin-right: auto;
 		position: relative;
 		width: 750px;
-		top: -5rem;
+		top: -1rem;
 	}
 	
 	.homecdimg{
@@ -739,7 +715,7 @@ li a:hover {
 		margin-right: auto;
 		position: relative;
 		width: 750px;
-		top: -5rem;
+		top: -1rem;
 	}
 	
 	.homedvdimg {
@@ -751,15 +727,15 @@ li a:hover {
 		margin-right: auto;
 		position: relative;
 		width: 750px;
-		top: -5rem;
+		top: -1rem;
 	}
 	
 	.buyselltradeimg {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
-		top: -5rem;
+		width: 760px;
+		top: -2rem;
 	}
 	
 	.connectimg {
@@ -776,7 +752,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -24rem;
 		width: 750px;
 		text-align: center;
 		font-size: 2rem;
@@ -786,7 +762,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -24rem;
 		width: 750px;
 		text-align: center;
 		font-size: 1rem;
@@ -796,7 +772,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -21rem;
 		width: 750px;
 		text-align: center;
 		font-size: 3rem;
@@ -806,7 +782,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -20rem;
 		width: 750px;
 		text-align: center;
 		font-size: 1.5rem;
@@ -816,7 +792,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -23rem;
 		width: 750px;
 		text-align: center;
 		font-size: 3rem;
@@ -826,7 +802,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -22rem;
 		width: 750px;
 		text-align: center;
 		font-size: 1.5rem;
@@ -846,7 +822,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -24rem;
 		width: 750px;
 		text-align: center;
 		font-size: 1.5rem;
@@ -867,36 +843,44 @@ li a:hover {
 		margin: 0 auto;
 		position: relative;
 		top: -20rem;
-		width: 750px;
+		width: 760px;
 		text-align: center;
 		font-size: 1.5rem;
 	}
 
-	.connecttext h1 {
-		display: block;
+	.connectus {
+		background-image: url(../images/open-163975.jpeg);
+		background-size: 760px;
 		margin: 0 auto;
+		display: block;
 		position: relative;
-		top: -40rem;
-		width: 750px;
-		text-align: center;
+		top: -5rem;
+		width: 760px;
+		height: 400px;
+		background-repeat: no-repeat;
+	}
+
+	.connect h1 {
 		font-size: 3rem;
+		text-align: center;
+		position: relative;
+		top: 7rem;
+		width: 760px;
 	}
 
 	.socialicons {
-		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -35rem;
-		width: 750px;
+		font-size: 8rem;
 		text-align: center;
-		font-size: 7rem;
+		position: relative;
+		top: 10rem;
+		width: 760px;
 	}
 
 	.homepagefooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -22rem;
+		top: -2rem;
 		width: 760px;
 		text-align: center;
 		font-size: 1.2rem;
@@ -1073,7 +1057,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -3rem;
+		top: 0rem;
 	}
 
 	.ownertext h1 {
@@ -1082,7 +1066,7 @@ li a:hover {
 		margin-right: auto;
 		width: 750px;
 		position: relative;
-		top: -15rem;
+		top: -10rem;
 		font-size: 2.5rem;
 	}
 
@@ -1092,7 +1076,7 @@ li a:hover {
 		margin-right: auto;
 		width: 750px;
 		position: relative;
-		top: -15rem;
+		top: -10rem;
 		font-size: 1.5rem;
 	}
 
@@ -1102,7 +1086,7 @@ li a:hover {
 		margin-right: auto;
 		width: 750px;
 		position: relative;
-		top: -8rem;
+		top: -2rem;
 	}
 
 	.hourstext h1 {
@@ -1111,7 +1095,7 @@ li a:hover {
 		margin-right: auto;
 		width: 750px;
 		position: relative;
-		top: -25rem;
+		top: -18rem;
 		font-size: 2.5rem;
 	}
 	
@@ -1121,61 +1105,43 @@ li a:hover {
 		margin-right: auto;
 		width: 750px;
 		position: relative;
-		top: -25rem;
+		top: -18rem;
 		font-size: 1.5rem;
 	}
 
-	.thelocation img {
+	.locationbackground {
+		background-image: url(../images/ottawa-4377995.jpeg);
+		background-size: 760px;
+		margin: 0 auto;
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 750px;
 		position: relative;
-		top: -13rem;
+		top: -5rem;
+		width: 760px;
+		height: 450px;
+		background-repeat: no-repeat;
 	}
 
-	.locationtext h1 {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 750px;
-		position: relative;
-		top: -30rem;
+	.thelocation h1 {
 		font-size: 2.5rem;
+		text-align: center;
+		position: relative;
+		top: 1rem;
+		width: 760px;
 	}
 
-	.locationtext p {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 750px;
-		position: relative;
-		top: -30rem;
+	.thelocation p {
 		font-size: 1.5rem;
-	}
-
-	.googlemapmobile {
-		display: none;
-	}
-
-	.googlemaptablet {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 750px;
+		text-align: center;
 		position: relative;
-		top: -17rem;
-	}
-
-	.googlemapdesktop {
-		display: none;
+		top: 1rem;
+		width: 760px;
 	}
 
 	.contactfooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -15rem;
+		top: -2rem;
 		width: 750px;
 		text-align: center;
 		font-size: 1.52rem;
@@ -1224,6 +1190,8 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		position: relative;
+		top: 0.5rem;
 		width: 1200px;
 	}
 
@@ -1247,7 +1215,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		top: -5rem;
+		top: -3rem;
 		grid-area: record;
 	}
 	
@@ -1259,7 +1227,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		top: -5rem;
+		top: -3.2rem;
 		grid-area: cd;
 	}
 	
@@ -1271,7 +1239,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		top: -5rem;
+		top: -3rem;
 		grid-area: dvd;
 	}
 	
@@ -1280,7 +1248,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 1200px;
-		top: -5rem;
+		top: -0.8rem;
 	}
 	
 	.connectimg {
@@ -1398,7 +1366,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -27rem;
+		top: -25rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 3.5rem;
@@ -1408,37 +1376,45 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -26rem;
+		top: -25rem;
 		width: 800px;
 		text-align: center;
 		font-size: 1.5rem;
 	}
 
-	.connecttext h1 {
-		display: block;
+	.connectus {
+		background-image: url(../images/open-163975.jpeg);
+		background-size: 1200px;
 		margin: 0 auto;
+		display: block;
 		position: relative;
-		top: -42rem;
+		top: -5rem;
 		width: 1200px;
-		text-align: center;
+		height: 600px;
+		background-repeat: no-repeat;
+	}
+
+	.connect h1 {
 		font-size: 3.5rem;
+		text-align: center;
+		position: relative;
+		top: 12rem;
+		width: 1200px;
 	}
 
 	.socialicons {
-		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -40rem;
-		width: 1200px;
-		text-align: center;
 		font-size: 10rem;
+		text-align: center;
+		position: relative;
+		top: 18rem;
+		width: 1200px;
 	}
 
 	.homepagefooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -2rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 1.2rem;
@@ -1624,7 +1600,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -3rem;
+		top: 0.5rem;
 	}
 
 	.ownertext h1 {
@@ -1633,7 +1609,7 @@ li a:hover {
 		margin-right: auto;
 		width: 1200px;
 		position: relative;
-		top: -15rem;
+		top: -10rem;
 		font-size: 2.5rem;
 	}
 
@@ -1643,7 +1619,7 @@ li a:hover {
 		margin-right: auto;
 		width: 1200px;
 		position: relative;
-		top: -15rem;
+		top: -10rem;
 		font-size: 1.5rem;
 	}
 
@@ -1653,7 +1629,7 @@ li a:hover {
 		margin-right: auto;
 		width: 1200px;
 		position: relative;
-		top: -8rem;
+		top: -1rem;
 	}
 
 	.hourstext h1 {
@@ -1662,7 +1638,7 @@ li a:hover {
 		margin-right: auto;
 		width: 1200px;
 		position: relative;
-		top: -35rem;
+		top: -30rem;
 		font-size: 3.5rem;
 	}
 	
@@ -1672,61 +1648,43 @@ li a:hover {
 		margin-right: auto;
 		width: 800px;
 		position: relative;
-		top: -35rem;
+		top: -30rem;
 		font-size: 2.5rem;
 	}
 
-	.thelocation img {
+	.locationbackground {
+		background-image: url(../images/ottawa-4377995.jpeg);
+		background-size: 1200px;
+		margin: 0 auto;
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 1200px;
 		position: relative;
-		top: -17rem;
+		top: -5rem;
+		width: 1200px;
+		height: 800px;
+		background-repeat: no-repeat;
 	}
 
-	.locationtext h1 {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 1200px;
-		position: relative;
-		top: -45rem;
+	.thelocation h1 {
 		font-size: 3.5rem;
+		text-align: center;
+		position: relative;
+		top: 1rem;
+		width: 1200px;
 	}
 
-	.locationtext p {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 1200px;
-		position: relative;
-		top: -45rem;
+	.thelocation p {
 		font-size: 2.5rem;
-	}
-
-	.googlemapmobile {
-		display: none;
-	}
-
-	.googlemaptablet {
-		display: none;
-	}
-
-	.googlemapdesktop {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 1200px;
+		text-align: center;
 		position: relative;
-		top: -23rem;
+		top: 1rem;
+		width: 1200px;
 	}
 
 	.contactfooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -22rem;
+		top: -2rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 1.52rem;
