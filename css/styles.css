@@ -60,7 +60,7 @@ html {
     box-sizing: inherit;
 }
 
-/* mobile css styles for 760px and below */
+/* mobile css styles for 600px and below */
 
 body {
 	background-color:#030301;
@@ -98,15 +98,43 @@ ul {
 }
 
 /* Mobile Styles */
+
+
 .ttpmobilelogo {
-	width: 300px;
-	margin: 0.1rem;
-	position: relative;
-	right: -3rem;
+	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+	width: 400px;
+	max-width: fit-content;
 }
 
 .ttpdesktoplogo {
 	display: none;
+}
+
+ul {
+	width: 8rem;
+	list-style-type: none;
+	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+	position: relative;
+	top: 0.25rem;
+}
+
+li a {
+	display: block;
+	position: relative;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 2px solid #FF1B1C;
+	text-align: center;
+}
+
+li a:hover {
+	background-color: #FF1B1C;
+	color:#FFFFFF;
+	width: 100%;
 }
 
 /* homepage 760px */
@@ -115,7 +143,8 @@ ul {
 	opacity: 0.7;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
+	margin-bottom: -5rem;
 }
 
 .homerecordimgdesktop {
@@ -134,7 +163,7 @@ ul {
 	opacity: 0.3;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
 	position: relative;
 	top: -0.5rem;
 }
@@ -143,207 +172,185 @@ ul {
 	opacity: 0.3;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
 	position: relative;
 	top: -0.5rem;
+	margin-top: -1.5rem;
 }
 
 .homedvdimg {
 	opacity: 0.3;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
 	position: relative;
 	top: -0.5rem;
+	margin-top: -1.5rem;
 }
 
 .buyselltradeimg {
 	opacity: 0.4;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
 	position: relative;
-	top: -0.5rem;
+	top: 0.5rem;
+	margin-top: -1.5rem;
 }
 
 .connectimg {
 	opacity: 0.2;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
 	position: relative;
-	top: -0.5rem;
-}
-
-ul {
-	list-style-type: none;
-	margin: 0.1rem;
-	padding: 0.3rem;
-	width: 12rem;
-}
-
-li a {
-	display: block;
-	position: relative;
-	left: 6.3rem;
-	color: #FFFFFF;
-	text-decoration: none;
-	border-bottom: 2px solid #FF1B1C;
-	text-align: center;
-}
-
-li a:hover {
-	background-color: #FF1B1C;
-	color:#FFFFFF;
+	top: -2.5rem;
+	margin-bottom: -10rem;
 }
 
 .homebanner h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 23.8rem;
-	width: 400px;
-	text-align: center;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -6rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 2rem;
 }
 
 .homebanner p {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 27em;
-	width: 400px;
-	text-align: center;
-}
-
-.contactbutton {
-	margin: 0;
-	padding: 0.5rem;
-	width: 8rem;
-	display: block;
-	position: relative;
-	top: -4rem;
-	left: 8.3rem;
-	color: #FF1B1C;
-	background-color: #030301;
-	font-family: 'Inconsolata', monospace;
-	font-size: large;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -5.5rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 1.2rem;
 }
 
 .recordtext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 43rem;
-	width: 400px;
-	text-align: center;
-	color: #FF1B1C;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -12rem;
+   	width: 100%;
+   	text-align: center;
+	color:#FF1B1C;
 	font-size: 2.5rem;
 }
 
 .recordtext h3 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 47rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
-	font-size: 1rem;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -11rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 1.5rem;
 }
 
 .cdtext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 60rem;
-	width: 400px;
-	text-align: center;
-	color: #FF1B1C;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -12rem;
+   	width: 100%;
+   	text-align: center;
+	color:#FF1B1C;
 	font-size: 2.5rem;
 }
 
 .cdtext h3 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 64rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
-	font-size: 1rem;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -11rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 1.5rem;
 }
 
 .dvdtext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 79rem;
-	width: 400px;
-	text-align: center;
-	color: #FF1B1C;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -12rem;
+   	width: 100%;
+   	text-align: center;
+	color:#FF1B1C;
 	font-size: 2.5rem;
 }
 
 .dvdtext h3 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 83rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
-	font-size: 1rem;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -11rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 1.5rem;
 }
 
 .buyselltradetext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 95rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -8rem;
+   	width: 100%;
+   	text-align: center;
 	font-size: 2.5rem;
 }
 
 .buyselltradetext h3 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 99rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
-	font-size: 1rem;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -7.5rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 1.2rem;
 }
 
-.connectus {
-	background-image: url(../images/open-163975.jpeg);
-	background-size: 400px;
-	width: 400px;
-	height: 200px;
-	background-repeat: no-repeat;
+.connecttext h1 {
+	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -7rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 2.5rem;
+}
+
+.socialicons {
+	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -5rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 5rem;
 }
 
 .homepagefooter {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 119rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: 2rem;
+   	width: 100%;
+   	text-align: center;
 }
 
 /* products page 760px */
@@ -352,162 +359,161 @@ li a:hover {
 	opacity: 0.4;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
 }
 
 .prodrecords img {
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
 	position: relative;
-	top: 0.1rem;
+	top: -2.5rem;
 }
 
 .prodcds img {
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
 	position: relative;
-	top: 18rem;
+	top: -1rem;
 }
 
 .proddvds img {
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
 	position: relative;
-	top: 31.5rem;
+	top: 0rem;
 }
 
 .productstext h1 {
-	margin: 0;
-	padding: 0;
 	display: block;
-	position: absolute;
-	top: 30rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -12rem;
+   	width: 100%;
+   	text-align: center;
 	font-size: 2.5rem;
 }
 
 .recordproducttext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 57rem;
-	width: 400px;
-	text-align: left;
-	color: #FF1B1C;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -2rem;
+   	width: 100%;
+   	text-align: left;
+	color:#FF1B1C;
 	font-size: 2.5rem;
 }
 
 .recordproducttext p {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 59.5rem;
-	width: 400px;
-	text-align: left;
-	color: #7C898B;
-	font-size: 1rem;
-}
-
-.recordproducttext h3 {
-	margin: 0.1rem;
-	padding: 0.3rem;
-	display: block;
-	position: absolute;
-	top: 73rem;
-	width: 400px;
-	text-align: center;
-	color: #FF1B1C;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -2rem;
+   	width: 100%;
+   	text-align: left;
+	color:#7C898B;
 	font-size: 1.2rem;
 }
 
-.cdproducttext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
+.recordproducttext h3 {
 	display: block;
-	position: absolute;
-	top: 91rem;
-	width: 400px;
-	text-align: left;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -1.5rem;
+   	width: 100%;
 	color: #FF1B1C;
+   	text-align: center;
+	font-size: 1.5rem;
+}
+
+.cdproducttext h1 {
+	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -1rem;
+   	width: 100%;
+   	text-align: left;
+	color:#FF1B1C;
 	font-size: 2.5rem;
 }
 
 .cdproducttext p {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 94rem;
-	width: 400px;
-	text-align: left;
-	color: #7C898B;
-	font-size: 1rem;
-}
-
-.cdproducttext h3 {
-	margin: 0.1rem;
-	padding: 0.3rem;
-	display: block;
-	position: absolute;
-	top: 103.5rem;
-	width: 400px;
-	text-align: center;
-	color: #FF1B1C;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -1rem;
+   	width: 100%;
+   	text-align: left;
+	color:#7C898B;
 	font-size: 1.2rem;
 }
 
-.dvdproducttext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
+.cdproducttext h3 {
 	display: block;
-	position: absolute;
-	top: 121.6rem;
-	width: 400px;
-	text-align: left;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -0.5rem;
+   	width: 100%;
 	color: #FF1B1C;
+   	text-align: center;
+	font-size: 1.5rem;
+}
+
+.dvdproducttext h1 {
+	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: 0rem;
+   	width: 100%;
+   	text-align: left;
+	color:#FF1B1C;
 	font-size: 2.5rem;
 }
 
 .dvdproducttext p {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 124.5rem;
-	width: 400px;
-	text-align: left;
-	color: #7C898B;
-	font-size: 1rem;
-}
-
-.dvdproducttext h3 {
-	margin: 0.1rem;
-	padding: 0.3rem;
-	display: block;
-	position: absolute;
-	top: 134rem;
-	width: 400px;
-	text-align: center;
-	color: #FF1B1C;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: 0rem;
+   	width: 100%;
+   	text-align: left;
+	color:#7C898B;
 	font-size: 1.2rem;
 }
 
-.productsfooter {
-	margin: 0.1rem;
-	padding: 0.3rem;
+.dvdproducttext h3 {
 	display: block;
-	position: absolute;
-	top: 136.5rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: 0.5rem;
+   	width: 100%;
+	color: #FF1B1C;
+   	text-align: center;
+	font-size: 1.5rem;
+}
+
+.productsfooter {
+	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: 2rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 1.5rem;
 }
 
 /* contact page 760px */
@@ -516,140 +522,139 @@ li a:hover {
 	opacity: 0.6;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
+	position: relative;
 }
 
 .theowner img {
 	opacity: 0.5;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
+	position: relative;
+	top: -1rem;
+	margin-bottom: -2rem;
 }
 
 .storehours img {
 	opacity: 0.5;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
+	position: relative;
+	top: -3.2rem;
 }
 
 .thelocation img {
 	opacity: 0.5;
 	margin: 0.1rem;
 	padding: 0.3rem;
-	width: 400px;
+	width: 100%;
+	position: relative;
+	top: -8rem;
+	margin-bottom: -10rem;
 }
 
 .contacttext h1 {
-	margin: 0;
-	padding: 0;
 	display: block;
-	position: absolute;
-	top: 30.5rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -12rem;
+   	width: 100%;
+   	text-align: center;
 	font-size: 2.5rem;
 }
 
 .ownertext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 62rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
-	font-size: 2.5rem;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -15rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 2rem;
 }
 
 .ownertext p {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 68rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
-	font-size: 1.2rem;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -15rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 1.5rem;
 }
 
 .hourstext h1 {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 79rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -16rem;
+   	width: 100%;
+   	text-align: center;
 	font-size: 2.5rem;
 }
 
 .hourstext p {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 82rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -15rem;
+   	width: 100%;
+   	text-align: center;
 	font-size: 1.2rem;
 }
 
-.locationbackground {
-	background-image: url(../images/ottawa-4377995.jpeg);
-	background-size: 400px;
-	display: block;
-	position: relative;
-	top: 0.5rem;
-	width: 400px;
-	height: 250px;
-	background-repeat: no-repeat;
-}
-
 .thelocation h1 {
+	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -10rem;
+   	width: 100%;
+   	text-align: center;
 	font-size: 2.5rem;
-	text-align: center;
-	position: relative;
-	top: 1rem;
-	width: 400px;
 }
 
 .thelocation p {
-	font-size: 1.5rem;
-	text-align: center;
-	position: relative;
-	top: 1rem;
-	width: 400px;
+	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -9rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 1.2rem;
 }
 
 .contactfooter {
-	margin: 0.1rem;
-	padding: 0.3rem;
 	display: block;
-	position: absolute;
-	top: 108rem;
-	width: 400px;
-	text-align: center;
-	color: #FFFFFF;
+   	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+   	top: -1rem;
+   	width: 100%;
+   	text-align: center;
+	font-size: 1.2rem;
 }
 
 /* Tablet Styles */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
 	.ttpmobilelogo {
 		display: none;
 	}
 
 	.ttpdesktoplogo {
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 750px;
-		padding: 0.5rem;
+   		margin-left: auto;
+   		margin-right: auto;
+		width: 100%;
+		max-width: fit-content;
 	}
 
 	ul {
@@ -677,9 +682,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: 2rem;
+		top: 0rem;
 	}
 
 	.homerecordimg {
@@ -701,9 +706,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		width: 100%;
 		position: relative;
-		width: 750px;
-		top: -1rem;
+		top: -5rem;
 	}
 	
 	.homecdimg{
@@ -713,9 +718,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		width: 100%;
 		position: relative;
-		width: 750px;
-		top: -1rem;
+		top: -8rem;
 	}
 	
 	.homedvdimg {
@@ -725,164 +730,176 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		width: 100%;
 		position: relative;
-		width: 750px;
-		top: -1rem;
+		top: -10.2rem;
 	}
 	
 	.buyselltradeimg {
+		opacity: 0.3;
+		margin: 0.1rem;
+		padding: 0.3rem;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 760px;
-		top: -2rem;
+		width: 100%;
+		position: relative;
+		top: -15rem;
 	}
 	
 	.connectimg {
+		opacity: 0.3;
+		margin: 0.1rem;
+		padding: 0.3rem;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
-		height: 50vh;
-		top: -11.5rem;
+		width: 100%;
 		position: relative;
+		top: -22rem;
+		margin-bottom: -35rem;
 	}
 
 	.bannertext h1 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -24rem;
-		width: 750px;
-		text-align: center;
-		font-size: 2rem;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -13rem;
+   		width: 100%;
+   		text-align: center;
+		font-size: 3rem;
 	}
 
 	.bannertext p {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -24rem;
-		width: 750px;
-		text-align: center;
-		font-size: 1rem;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -12rem;
+   		width: 100%;
+   		text-align: center;
+		font-size: 2rem;
 	}
 
 	.recordtext h1 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -21rem;
-		width: 750px;
-		text-align: center;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -15rem;
+   		width: 100%;
+   		text-align: center;
 		font-size: 3rem;
 	}
 	
 	.recordtext h3 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -20rem;
-		width: 750px;
-		text-align: center;
-		font-size: 1.5rem;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -14rem;
+   		width: 100%;
+   		text-align: center;
+		font-size: 2.2rem;
 	}
 
 	.cdtext h1 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -23rem;
-		width: 750px;
-		text-align: center;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -18rem;
+   		width: 100%;
+   		text-align: center;
 		font-size: 3rem;
 	}
 	
 	.cdtext h3 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -22rem;
-		width: 750px;
-		text-align: center;
-		font-size: 1.5rem;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -16rem;
+   		width: 100%;
+   		text-align: center;
+		font-size: 2.2rem;
 	}
 
 	.dvdtext h1 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -25rem;
-		width: 750px;
-		text-align: center;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -20rem;
+   		width: 100%;
+   		text-align: center;
 		font-size: 3rem;
 	}
 	
 	.dvdtext h3 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -24rem;
-		width: 750px;
-		text-align: center;
-		font-size: 1.5rem;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -18rem;
+   		width: 100%;
+   		text-align: center;
+		font-size: 2.2rem;
 	}
 
 	.buyselltradetext h1 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -20rem;
-		width: 750px;
-		text-align: center;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -29rem;
+   		width: 100%;
+   		text-align: center;
 		font-size: 3rem;
 	}
 
 	.buyselltradetext h3 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -20rem;
-		width: 760px;
-		text-align: center;
-		font-size: 1.5rem;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -28rem;
+   		width: 100%;
+   		text-align: center;
+		font-size: 2rem;
 	}
 
-	.connectus {
-		background-image: url(../images/open-163975.jpeg);
-		background-size: 760px;
-		margin: 0 auto;
+	.connecttext h1 {
 		display: block;
-		position: relative;
-		top: -5rem;
-		width: 760px;
-		height: 400px;
-		background-repeat: no-repeat;
-	}
-
-	.connect h1 {
-		font-size: 3rem;
-		text-align: center;
-		position: relative;
-		top: 7rem;
-		width: 760px;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -6rem;
+   		width: 100%;
+   		text-align: center;
+		font-size: 4rem;
 	}
 
 	.socialicons {
-		font-size: 8rem;
-		text-align: center;
-		position: relative;
-		top: 10rem;
-		width: 760px;
+		display: block;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -4rem;
+   		width: 100%;
+   		text-align: center;
+		font-size: 7rem;
 	}
 
 	.homepagefooter {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -2rem;
-		width: 760px;
-		text-align: center;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: 3rem;
+   		width: 100%;
+   		text-align: center;
 		font-size: 1.2rem;
 	}
 
@@ -890,53 +907,54 @@ li a:hover {
 
 	.productsbanner h1 {
 		display: block;
-		margin: 0 auto;
-		position: relative;
-		top: -18rem;
-		width: 750px;
-		text-align: center;
-		font-size: 3.5rem;
+   		margin-left: auto;
+   		margin-right: auto;
+   		position: relative;
+   		top: -15rem;
+   		width: 100%;
+   		text-align: center;
+		font-size: 3rem;
 	}
 	
 	.productsbanner img {
-		opacity: 0.4;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
+		position: relative;
 	}
 
 	.prodrecords img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
-		top: -3rem;
+		width: 100%;
+		position: relative;
 	}
 
 	.prodcds img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
-		top: -3rem;
+		width: 100%;
+		position: relative;
 	}
 
 	.proddvds img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
-		top: -3rem;
+		width: 100%;
+		position: relative;
 	}
 
 	.recordproducttext h1 {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -3rem;
+		top: -2rem;
 		font-size: 3.5rem;
 	}
 
@@ -944,9 +962,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -3rem;
+		top: -2rem;
 		font-size: 1.5rem;
 	}
 
@@ -954,9 +972,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
+		width: 100%;
 		position: relative;
-		top: -3rem;
+		top: -1.5rem;
 		font-size: 2rem;
 	}
 
@@ -964,9 +982,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -3rem;
+		top: -1rem;
 		font-size: 3.5rem;
 	}
 
@@ -974,9 +992,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -3rem;
+		top: -1rem;
 		font-size: 1.5rem;
 	}
 
@@ -984,9 +1002,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
+		width: 100%;
 		position: relative;
-		top: -3rem;
+		top: -0.5rem;
 		font-size: 2rem;
 	}
 
@@ -994,9 +1012,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -3rem;
+		top: 0rem;
 		font-size: 3.5rem;
 	}
 
@@ -1004,9 +1022,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -3rem;
+		top: 0rem;
 		font-size: 1.5rem;
 	}
 
@@ -1014,9 +1032,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
+		width: 100%;
 		position: relative;
-		top: -3rem;
+		top: 0.5rem;
 		font-size: 2rem;
 	}
 
@@ -1024,8 +1042,8 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -2rem;
-		width: 760px;
+		top: 1rem;
+		width: 100%;
 		text-align: center;
 		font-size: 1.2rem;
 	}
@@ -1033,40 +1051,38 @@ li a:hover {
 	/* contact page 1200px */
 
 	.contactbanner img {
-		opacity: 0.4;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
+		position: relative;
 	}
 
 	.contacttext h1 {
 		display: block;
-		margin: 0 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
 		position: relative;
-		top: -18rem;
-		width: 600px;
-		text-align: center;
+		top: -15rem;
 		font-size: 3.5rem;
 	}
 
 	.theowner img {
-		opacity: 0.4;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 600px;
+		width: 100%;
 		position: relative;
-		top: 0rem;
 	}
 
 	.ownertext h1 {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -10rem;
+		top: -15rem;
 		font-size: 2.5rem;
 	}
 
@@ -1074,9 +1090,9 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -10rem;
+		top: -15rem;
 		font-size: 1.5rem;
 	}
 
@@ -1084,18 +1100,17 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -2rem;
 	}
 
 	.hourstext h1 {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -18rem;
+		top: -17rem;
 		font-size: 2.5rem;
 	}
 	
@@ -1103,46 +1118,47 @@ li a:hover {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 750px;
+		width: 100%;
 		position: relative;
-		top: -18rem;
-		font-size: 1.5rem;
+		top: -16rem;
+		font-size: 1.2rem;
 	}
 
-	.locationbackground {
-		background-image: url(../images/ottawa-4377995.jpeg);
-		background-size: 760px;
-		margin: 0 auto;
+	.thelocation img {
 		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
 		position: relative;
-		top: -5rem;
-		width: 760px;
-		height: 450px;
-		background-repeat: no-repeat;
+		top: -7rem;
 	}
 
-	.thelocation h1 {
+	.locationtext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		position: relative;
+		top: -11rem;
 		font-size: 2.5rem;
-		text-align: center;
-		position: relative;
-		top: 1rem;
-		width: 760px;
 	}
 
-	.thelocation p {
-		font-size: 1.5rem;
-		text-align: center;
+	.locationtext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
 		position: relative;
-		top: 1rem;
-		width: 760px;
+		top: -10rem;
+		font-size: 1.2rem;
 	}
 
 	.contactfooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -2rem;
-		width: 750px;
+		top: 1rem;
+		width: 100%;
 		text-align: center;
 		font-size: 1.52rem;
 	}
@@ -1215,7 +1231,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		top: -3rem;
+		top: 1.8rem;
 		grid-area: record;
 	}
 	
@@ -1227,7 +1243,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		top: -3.2rem;
+		top: 1.8rem;
 		grid-area: cd;
 	}
 	
@@ -1239,7 +1255,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		top: -3rem;
+		top: 1.8rem;
 		grid-area: dvd;
 	}
 	
@@ -1248,7 +1264,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 1200px;
-		top: -0.8rem;
+		top: 2rem;
 	}
 	
 	.connectimg {
@@ -1256,8 +1272,7 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 1200px;
-		height: 50vh;
-		top: -11.5rem;
+		top: -8.5rem;
 		position: relative;
 	}
 
@@ -1265,7 +1280,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -18rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 2.5rem;
@@ -1275,7 +1290,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -18rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 1.5rem;
@@ -1366,47 +1381,36 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -22rem;
 		width: 1200px;
 		text-align: center;
-		font-size: 3.5rem;
+		font-size: 4.5rem;
 	}
 
 	.buyselltradetext h3 {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -19rem;
 		width: 800px;
 		text-align: center;
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 
-	.connectus {
-		background-image: url(../images/open-163975.jpeg);
-		background-size: 1200px;
-		margin: 0 auto;
-		display: block;
-		position: relative;
-		top: -5rem;
-		width: 1200px;
-		height: 600px;
-		background-repeat: no-repeat;
-	}
-
-	.connect h1 {
+	.connecttext h1 {
 		font-size: 3.5rem;
 		text-align: center;
 		position: relative;
-		top: 12rem;
+		top: -4rem;
 		width: 1200px;
+		font-size: 4.5rem;
 	}
 
 	.socialicons {
 		font-size: 10rem;
 		text-align: center;
 		position: relative;
-		top: 18rem;
+		top: -1rem;
 		width: 1200px;
 	}
 
@@ -1414,7 +1418,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -2rem;
+		top: 14rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 1.2rem;
@@ -1426,7 +1430,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -25rem;
+		top: -22rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 3.5rem;
@@ -1438,6 +1442,9 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 1200px;
+		position: relative;
+		top: 1rem;
+		margin-bottom: -5rem;
 	}
 
 	.prodrecords img {
@@ -1445,8 +1452,9 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
+		position: relative;
 		left: 18.7rem;
-		top: 1.5rem;
+		top: 4rem;
 	}
 
 	.prodcds img {
@@ -1454,8 +1462,9 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
-		top: -22rem;
-		left: 18.7rem;
+		position: relative;
+		top: -15rem;
+		left: -18.7rem;
 	}
 
 	.proddvds img {
@@ -1463,8 +1472,10 @@ li a:hover {
 		margin-left: auto;
 		margin-right: auto;
 		width: 600px;
-		top: -41rem;
+		position: relative;
+		top: -30rem;
 		left: 18.7rem;
+		margin-bottom: -120rem;
 	}
 
 	.recordproducttext h1 {
@@ -1473,7 +1484,7 @@ li a:hover {
 		margin-right: auto;
 		width: 1200px;
 		position: relative;
-		top: -25rem;
+		top: -22rem;
 		font-size: 3.5rem;
 	}
 
@@ -1483,7 +1494,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -25rem;
+		top: -22rem;
 		left: -18.5rem;
 		font-size: 1.5rem;
 	}
@@ -1494,7 +1505,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -25rem;
+		top: -21.5rem;
 		left: -19rem;
 		font-size: 2rem;
 	}
@@ -1505,7 +1516,8 @@ li a:hover {
 		margin-right: auto;
 		width: 1200px;
 		position: relative;
-		top: -45rem;
+		right: -38rem;
+		top: -36rem;
 		font-size: 3.5rem;
 	}
 
@@ -1515,8 +1527,8 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -45rem;
-		left: -18.5rem;
+		top: -35rem;
+		right: -19.6rem;
 		font-size: 1.5rem;
 	}
 
@@ -1526,8 +1538,8 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -45rem;
-		left: -19rem;
+		top: -34.5rem;
+		right: -19.6rem;
 		font-size: 2rem;
 	}
 
@@ -1537,7 +1549,7 @@ li a:hover {
 		margin-right: auto;
 		width: 1200px;
 		position: relative;
-		top: -65rem;
+		top: 68rem;
 		font-size: 3.5rem;
 	}
 
@@ -1547,7 +1559,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -65rem;
+		top: 69rem;
 		left: -18.5rem;
 		font-size: 1.5rem;
 	}
@@ -1558,7 +1570,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: -65rem;
+		top: 70rem;
 		left: -19rem;
 		font-size: 2rem;
 	}
@@ -1567,7 +1579,7 @@ li a:hover {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -60rem;
+		top: -2rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 1.52rem;
@@ -1600,7 +1612,7 @@ li a:hover {
 		margin-right: auto;
 		width: 600px;
 		position: relative;
-		top: 0.5rem;
+		top: -1rem;
 	}
 
 	.ownertext h1 {
@@ -1638,7 +1650,7 @@ li a:hover {
 		margin-right: auto;
 		width: 1200px;
 		position: relative;
-		top: -30rem;
+		top: -26rem;
 		font-size: 3.5rem;
 	}
 	
@@ -1648,43 +1660,44 @@ li a:hover {
 		margin-right: auto;
 		width: 800px;
 		position: relative;
-		top: -30rem;
+		top: -25rem;
 		font-size: 2.5rem;
 	}
 
-	.locationbackground {
-		background-image: url(../images/ottawa-4377995.jpeg);
-		background-size: 1200px;
-		margin: 0 auto;
+	.thelocation img {
+		opacity: 0.4;
 		display: block;
-		position: relative;
-		top: -5rem;
+		margin-left: auto;
+		margin-right: auto;
 		width: 1200px;
-		height: 800px;
-		background-repeat: no-repeat;
+		position: relative;
 	}
 
-	.thelocation h1 {
+	.locationtext h1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		position: relative;
+		top: -22rem;
 		font-size: 3.5rem;
-		text-align: center;
-		position: relative;
-		top: 1rem;
-		width: 1200px;
 	}
 
-	.thelocation p {
-		font-size: 2.5rem;
-		text-align: center;
-		position: relative;
-		top: 1rem;
+	.locationtext p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		width: 1200px;
+		position: relative;
+		top: -21rem;
+		font-size: 2.5rem;
 	}
 
 	.contactfooter {
 		display: block;
 		margin: 0 auto;
 		position: relative;
-		top: -2rem;
+		top: -1.5rem;
 		width: 1200px;
 		text-align: center;
 		font-size: 1.52rem;
