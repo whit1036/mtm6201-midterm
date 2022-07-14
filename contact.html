@@ -16,30 +16,40 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    
+    <ul class="skiplinks">
+        <li><a href="#nav">Skip to main nav</a></li>
+        <li><a href="#main">Skip to main content</a></li>
+    </ul>
+    
     <header class="mainheader">
-        <nav class="mainnav">
+        <nav id="nav" class="mainnav">
             
             <div class="logo-container">
-                <a href=index.html><img class="ttpmobilelogo" src="images/resized.svg" alt="theturningpointlogo"></a>
-                <a href=index.html><img class="ttpdesktoplogo" src="images/desktop-logo.svg" alt="desktoplogo"></a> 
+                <a href=index.html><img class="ttpmobilelogo" src="images/resized.svg" alt="mobilelogo"></a>
+                <a href=index.html><img class="ttpdesktoplogo" src="images/desktop-logo.svg" alt="desktoplogo"></a>
             </div>
             
             <ul class="mainmenu">
-                <li><a href=products.html>Products</a></li>
-                <li><a href=contact.html>Contact Us</a></li>
+                <li class="prodnav"><a href=products.html>Products</a></li>
+                <li class="contnav"><a href=contact.html>Contact Us</a></li>
             </ul>
         </nav>
-
-        <article class="contactbanner">
-            <img src="images/cellular-4599956.jpeg" alt=contactus>
+        
+        <!-- homepage banner -->
+        <article class="homebanner">
+            <img class="homebannerimg" src="images/records-2616886.jpeg" alt="recordstore">
             
-            <div class="contacttext">
-                <h1>Contact Us</h1>
+            <div class="bannertext">
+                <h1>Welcome to Ottawa's BEST used music and movie store!</h1>
+            
+                <p>The biggest and most diverse selection of music and movies in Ottawa since 1983.</p>
             </div>
+            
         </article>
     </header>
 
-    <main>
+    <main id="main">
         <section class="maincontact">
             
             <div class="theowner">
