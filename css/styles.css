@@ -60,7 +60,7 @@ html {
     box-sizing: inherit;
 }
 
-/* mobile css styles for 600px and below */
+/* Mobile CSS styles for 600px and below */
 
 /* deafult master font size, font-family, and font colors for desktop/tablet/mobile */
 body {
@@ -98,7 +98,7 @@ ul {
 	font-family: 'Inconsolata', monospace;
 }
 
-/* removes list styles and underlines from all webpahe links */
+/* removes list styles and underlines from all webpage links */
 a:link {
 	text-decoration: none;
 	color: #FF1B1C;
@@ -538,6 +538,7 @@ li a:hover {
 	font-size: 2.5rem;
 }
 
+/* styles and positions image, and adjusts opacity for responsisve mobile mockup layout */
 .prodrecords img {
 	opacity: 0.4;
 	margin: 0.1rem;
@@ -547,6 +548,7 @@ li a:hover {
 	top: -2.5rem;
 }
 
+/* positions and aligns record header text under record image, adjusts and alignsa for responsive mobile layout */
 .recordproducttext h1 {
 	display: block;
    	margin-left: auto;
@@ -559,6 +561,7 @@ li a:hover {
 	font-size: 2.5rem;
 }
 
+/* positions and aligns record paragraph text under record header text, adjusts and aligns for responsive mobile layout */
 .recordproducttext p {
 	display: block;
    	margin-left: auto;
@@ -571,6 +574,7 @@ li a:hover {
 	font-size: 1.2rem;
 }
 
+/* positions and aligns record sub-text over record image, adjusts and aligns for responsive mobile layout */
 .recordproducttext h3 {
 	display: block;
    	margin-left: auto;
@@ -583,6 +587,7 @@ li a:hover {
 	font-size: 1.5rem;
 }
 
+/* styles cd products banner for responsive mobile design, adjusts opacity for optimal text viewing */
 .prodcds img {
 	opacity: 0.4;
 	margin: 0.1rem;
@@ -592,6 +597,7 @@ li a:hover {
 	top: -4rem;
 }
 
+/* positions and aligns cd product header text under cd image, adjusts and alignsa for responsive mobile layout */
 .cdproducttext h1 {
 	display: block;
    	margin-left: auto;
@@ -604,6 +610,7 @@ li a:hover {
 	font-size: 2.5rem;
 }
 
+/* positions and aligns cd paragraph text under cd header text, adjusts and aligns for responsive mobile layout */
 .cdproducttext p {
 	display: block;
    	margin-left: auto;
@@ -616,6 +623,7 @@ li a:hover {
 	font-size: 1.2rem;
 }
 
+/* positions and aligns cd sub-text over cd image, adjusts and aligns for responsive mobile layout */
 .cdproducttext h3 {
 	display: block;
    	margin-left: auto;
@@ -628,6 +636,7 @@ li a:hover {
 	font-size: 1.5rem;
 }
 
+/* styles dvd products banner for responsive mobile design, adjusts opacity for optimal text viewing */
 .proddvds img {
 	opacity: 0.4;
 	margin: 0.1rem;
@@ -637,6 +646,7 @@ li a:hover {
 	top: -4rem;
 }
 
+/* positions and aligns dvd product header text under dvd image, adjusts and alignsa for responsive mobile layout */
 .dvdproducttext h1 {
 	display: block;
    	margin-left: auto;
@@ -649,6 +659,7 @@ li a:hover {
 	font-size: 2.5rem;
 }
 
+/* positions and aligns dvd paragraph text under dvd header text, adjusts and aligns for responsive mobile layout */
 .dvdproducttext p {
 	display: block;
    	margin-left: auto;
@@ -661,6 +672,7 @@ li a:hover {
 	font-size: 1.2rem;
 }
 
+/* positions and aligns dvd sub-text over dvd image, adjusts and aligns for responsive mobile layout */
 .dvdproducttext h3 {
 	display: block;
    	margin-left: auto;
@@ -673,6 +685,7 @@ li a:hover {
 	font-size: 1.5rem;
 }
 
+/* aligns products page footer to display responsibly for mobile at the bottom of the page */
 .productsfooter {
 	display: block;
    	margin-left: auto;
@@ -684,8 +697,9 @@ li a:hover {
 	font-size: 1.5rem;
 }
 
-/* contact page 760px */
+/***** Mobile Contact page *****/
 
+/* aligns contact banner image to display responsibly for mobile layout, adjusts opacity for optimal text viewing */
 .contactbanner img {
 	opacity: 0.6;
 	margin: 0.1rem;
@@ -694,35 +708,7 @@ li a:hover {
 	position: relative;
 }
 
-.theowner img {
-	opacity: 0.5;
-	margin: 0.1rem;
-	padding: 0.3rem;
-	width: 100%;
-	position: relative;
-	top: -1rem;
-	margin-bottom: -2rem;
-}
-
-.storehours img {
-	opacity: 0.5;
-	margin: 0.1rem;
-	padding: 0.3rem;
-	width: 100%;
-	position: relative;
-	top: -3.2rem;
-}
-
-.thelocation img {
-	opacity: 0.5;
-	margin: 0.1rem;
-	padding: 0.3rem;
-	width: 100%;
-	position: relative;
-	top: -8rem;
-	margin-bottom: -10rem;
-}
-
+/* aligns contact banner header text over contact image, adjusts for responsive mobile layout design */
 .contacttext h1 {
 	display: block;
    	margin-left: auto;
@@ -734,6 +720,18 @@ li a:hover {
 	font-size: 2.5rem;
 }
 
+/* aligns owner image to display responsibly for mobile, adjusts opacity for optimal text viewing */
+.theowner img {
+	opacity: 0.5;
+	margin: 0.1rem;
+	padding: 0.3rem;
+	width: 100%;
+	position: relative;
+	top: -1rem;
+	margin-bottom: -2rem;
+}
+
+/* aligns owner banner header text over owner image, adjusts for responsive mobile layout design */
 .ownertext h1 {
 	display: block;
    	margin-left: auto;
@@ -745,6 +743,7 @@ li a:hover {
 	font-size: 2rem;
 }
 
+/* aligns owner banner paragraph text over owner image to display under owner banner text, adjusts for responsive mobile layout */
 .ownertext p {
 	display: block;
    	margin-left: auto;
@@ -756,6 +755,17 @@ li a:hover {
 	font-size: 1.5rem;
 }
 
+/* aligns store hours image to display responsibly for mobile, adjusts opacity for optimal text viewing */
+.storehours img {
+	opacity: 0.5;
+	margin: 0.1rem;
+	padding: 0.3rem;
+	width: 100%;
+	position: relative;
+	top: -3.2rem;
+}
+
+/* aligns store hours banner header text over owner image, adjusts for responsive mobile layout design */
 .hourstext h1 {
 	display: block;
    	margin-left: auto;
@@ -767,6 +777,7 @@ li a:hover {
 	font-size: 2.5rem;
 }
 
+/* aligns store hours banner paragraph text over store hours image to display under owner banner text, adjusts for responsive mobile layout */
 .hourstext p {
 	display: block;
    	margin-left: auto;
@@ -778,6 +789,18 @@ li a:hover {
 	font-size: 1.2rem;
 }
 
+/* aligns location image to display responsibly for mobile, adjusts opacity for optimal text viewing */
+.thelocation img {
+	opacity: 0.5;
+	margin: 0.1rem;
+	padding: 0.3rem;
+	width: 100%;
+	position: relative;
+	top: -8rem;
+	margin-bottom: -10rem;
+}
+
+/* aligns location banner header text over location image, adjusts for responsive mobile layout design */
 .thelocation h1 {
 	display: block;
    	margin-left: auto;
@@ -789,6 +812,7 @@ li a:hover {
 	font-size: 2.5rem;
 }
 
+/* aligns location banner paragraph text over location image to display under owner banner text, adjusts for responsive mobile layout */
 .thelocation p {
 	display: block;
    	margin-left: auto;
@@ -800,6 +824,7 @@ li a:hover {
 	font-size: 1.2rem;
 }
 
+/* aligns contact page footer to display responsibly for mobile at the bottom of the page */
 .contactfooter {
 	display: block;
    	margin-left: auto;
@@ -946,7 +971,7 @@ li a:hover {
 		top: -8rem;
 	}
 
-	/* adjusts cd header text to position over record image according to tablet layout */
+	/* adjusts cd header text to position over cd image according to tablet layout */
 	.cdtext h1 {
 		display: block;
    		margin-left: auto;
@@ -983,7 +1008,7 @@ li a:hover {
 		top: -10.2rem;
 	}
 
-	/* adjusts dvd header text to position over record image according to tablet layout */
+	/* adjusts dvd header text to position over dvd image according to tablet layout */
 	.dvdtext h1 {
 		display: block;
    		margin-left: auto;
@@ -1007,7 +1032,7 @@ li a:hover {
 		font-size: 2.2rem;
 	}
 	
-	/* styles buy/sell/trade image to display responsively and positioned accordingly */
+	/* styles buy/sell/trade image to display responsively and positioned according to tablet layout */
 	.buyselltradeimg {
 		opacity: 0.3;
 		margin: 0.1rem;
@@ -1020,7 +1045,7 @@ li a:hover {
 		top: -15rem;
 	}
 
-	/* adjusts buy/sell/trade header text to position over record image */
+	/* adjusts buy/sell/trade header text to position over buy/sell/trade image for responsive tablet layout */
 	.buyselltradetext h1 {
 		display: block;
    		margin-left: auto;
@@ -1032,7 +1057,7 @@ li a:hover {
 		font-size: 3rem;
 	}
 
-	/* positions buy/sell/trade sub-text under record header text accordingly */
+	/* positions buy/sell/trade sub-text under buy/sell/trade header text according to tablet layout */
 	.buyselltradetext h3 {
 		display: block;
    		margin-left: auto;
@@ -1044,7 +1069,7 @@ li a:hover {
 		font-size: 2rem;
 	}
 	
-	/* styles connect us image to display responsively and positioned accordingly */
+	/* styles connect us image to display responsively and positioned according to tablet layout */
 	.connectimg {
 		opacity: 0.3;
 		margin: 0.1rem;
@@ -1058,6 +1083,7 @@ li a:hover {
 		margin-bottom: -35rem;
 	}
 
+	/* adjusts connect us header text to position over connect us image for responsive tablet layout */
 	.connecttext h1 {
 		display: block;
    		margin-left: auto;
@@ -1069,6 +1095,7 @@ li a:hover {
 		font-size: 4rem;
 	}
 
+	/* aligns social icons to displau under connect us header text, adjusts for responsive tablet layout */
 	.socialicons {
 		display: block;
    		margin-left: auto;
@@ -1080,6 +1107,7 @@ li a:hover {
 		font-size: 7rem;
 	}
 
+	/* positions homepage footer to align to the bottom of the page, adjusts for responsive layout design */
 	.homepagefooter {
 		display: block;
    		margin-left: auto;
@@ -1092,6 +1120,14 @@ li a:hover {
 	}
 
 	/* Products Tablet styles 600px */
+	
+	.productsbanner img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		position: relative;
+	}
 
 	.productsbanner h1 {
 		display: block;
@@ -1103,14 +1139,6 @@ li a:hover {
    		text-align: center;
 		font-size: 3rem;
 	}
-	
-	.productsbanner img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-		position: relative;
-	}
 
 	.prodrecords img {
 		opacity: 1;
@@ -1119,26 +1147,6 @@ li a:hover {
 		margin-right: auto;
 		width: 100%;
 		position: relative;
-	}
-
-	.prodcds img {
-		opacity: 1;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-		position: relative;
-		top: -1rem;
-	}
-
-	.proddvds img {
-		opacity: 1;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-		position: relative;
-		top: 0rem;
 	}
 
 	.recordproducttext h1 {
@@ -1171,6 +1179,16 @@ li a:hover {
 		font-size: 1.5rem;
 	}
 
+	.prodcds img {
+		opacity: 1;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		position: relative;
+		top: -1rem;
+	}
+
 	.cdproducttext h1 {
 		display: block;
 		margin-left: auto;
@@ -1199,6 +1217,16 @@ li a:hover {
 		position: relative;
 		top: -0.5rem;
 		font-size: 1.5rem;
+	}
+
+	.proddvds img {
+		opacity: 1;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		position: relative;
+		top: 0rem;
 	}
 
 	.dvdproducttext h1 {
