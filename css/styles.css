@@ -547,15 +547,6 @@ li a:hover {
 	top: -2.5rem;
 }
 
-.prodcds img {
-	opacity: 0.4;
-	margin: 0.1rem;
-	padding: 0.3rem;
-	width: 100%;
-	position: relative;
-	top: -4rem;
-}
-
 .recordproducttext h1 {
 	display: block;
    	margin-left: auto;
@@ -566,15 +557,6 @@ li a:hover {
    	text-align: left;
 	color:#FF1B1C;
 	font-size: 2.5rem;
-}
-
-.proddvds img {
-	opacity: 0.4;
-	margin: 0.1rem;
-	padding: 0.3rem;
-	width: 100%;
-	position: relative;
-	top: -4rem;
 }
 
 .recordproducttext p {
@@ -599,6 +581,15 @@ li a:hover {
 	color: #FFFFFF;
    	text-align: center;
 	font-size: 1.5rem;
+}
+
+.prodcds img {
+	opacity: 0.4;
+	margin: 0.1rem;
+	padding: 0.3rem;
+	width: 100%;
+	position: relative;
+	top: -4rem;
 }
 
 .cdproducttext h1 {
@@ -635,6 +626,15 @@ li a:hover {
 	color: #FFFFFF;
    	text-align: center;
 	font-size: 1.5rem;
+}
+
+.proddvds img {
+	opacity: 0.4;
+	margin: 0.1rem;
+	padding: 0.3rem;
+	width: 100%;
+	position: relative;
+	top: -4rem;
 }
 
 .dvdproducttext h1 {
@@ -1007,7 +1007,7 @@ li a:hover {
 		font-size: 2.2rem;
 	}
 	
-	/* styles buy/sell/trade image to display responsively and positioned according to the tablet mockup */
+	/* styles buy/sell/trade image to display responsively and positioned accordingly */
 	.buyselltradeimg {
 		opacity: 0.3;
 		margin: 0.1rem;
@@ -1020,6 +1020,7 @@ li a:hover {
 		top: -15rem;
 	}
 
+	/* adjusts buy/sell/trade header text to position over record image */
 	.buyselltradetext h1 {
 		display: block;
    		margin-left: auto;
@@ -1031,6 +1032,7 @@ li a:hover {
 		font-size: 3rem;
 	}
 
+	/* positions buy/sell/trade sub-text under record header text accordingly */
 	.buyselltradetext h3 {
 		display: block;
    		margin-left: auto;
@@ -1042,6 +1044,7 @@ li a:hover {
 		font-size: 2rem;
 	}
 	
+	/* styles connect us image to display responsively and positioned accordingly */
 	.connectimg {
 		opacity: 0.3;
 		margin: 0.1rem;
