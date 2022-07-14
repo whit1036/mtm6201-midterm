@@ -22,36 +22,36 @@
         <li><a href="#main">Skip to main content</a></li>
     </ul>
     
-    <header class="mainheader">
+    <header class="mainheader" role="heading">
         <nav class="mainnav">
             
-            <div class="logo-container">
-                <a href=index.html><img class="ttpmobilelogo" src="images/desktop-logo-ttp.png" alt="theturningpointlogo"></a>
-                <a href=index.html><img class="ttpdesktoplogo" src="images/desktop-logo.png" alt="desktoplogo"></a> 
+            <div class="logo-container" role="banner">
+                <a href=index.html><img class="ttpmobilelogo" src="images/desktop-logo-ttp.png" alt="mobilelogo" role="img"></a>
+                <a href=index.html><img class="ttpdesktoplogo" src="images/desktop-logo.png" alt="desktoplogo" role="img"></a> 
             </div>
             
             <ul class="mainmenu">
-                <li><a href=products.html>Products</a></li>
-                <li><a href=contact.html>Contact Us</a></li>
+                <li class="prodnav"><a href=products.html>Products</a></li>
+                <li class="contnav"><a href=contact.html>Contact Us</a></li>
             </ul>
         </nav>
 
         <article class="contactbanner">
-            <img src="images/cellular-4599956.jpeg" alt=contactus>
+            <img src="images/cellular-4599956.jpeg" alt=contactus role="img">
             
-            <div class="contacttext">
+            <div class="contacttext" role="contentinfo">
                 <h1>Contact Us</h1>
             </div>
         </article>
     </header>
 
-    <main id="main">
-        <section class="maincontact">
+    <main id="main" role="main">
+        <section class="maincontact" role="complementary">
             
             <div class="theowner">
-                <article>
+                <article role="region">
                     
-                    <img src="images/20191015_125940.jpeg" alt="theowner">
+                    <img src="images/20191015_125940.jpeg" alt="theowner" role="img">
                     
                     <div role="list" class="ownertext" itemscope itemtype="https://schema.org/Person">
                         <h1 itemprop="name">Nick Beaton</h1>
@@ -66,9 +66,9 @@
             </div>
 
             <div class="storehours">
-                <article>
+                <article role="region">
                     
-                    <img src="images/container-1867697.jpeg" alt="storehours">
+                    <img src="images/container-1867697.jpeg" alt="storehours" role="img">
                     
                     <div class="hourstext" itemscope itemtype="https://schema.org/LocalBusiness">
                         <h1>Store Hours</h1>
@@ -79,9 +79,9 @@
             </div>
 
             <div class="thelocation">
-                <article class="locationbackground">
+                <article class="locationbackground" role="region">
                     
-                    <img src="images/ottawa-4377995.jpeg" alt="ottawa">
+                    <img src="images/ottawa-4377995.jpeg" alt="ottawa" role="img">
                     
                     <address class="locationtext" itemscope itemtype="https://schema.org/PostalAddress">
                         <h1>Location</h1>
@@ -98,7 +98,7 @@
         </section>
     </main>
 
-    <footer class="contactfooter">
+    <footer class="contactfooter" role="contentinfo">
         <h4>The Turning Point © 2022 All Rights Reserved</h4>
     </footer>
 </body>

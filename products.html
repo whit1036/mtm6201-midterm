@@ -22,37 +22,37 @@
         <li><a href="#main">Skip to main content</a></li>
     </ul>
 
-    <header class="mainheader">
-        <nav class="mainnav">
+    <header class="mainheader" role="heading">
+        <nav id="nav" class="mainnav" role="navigation">
             
-            <div class="logo-container">
-                <a href=index.html><img class="ttpmobilelogo" src="images/desktop-logo-ttp.png" alt="theturningpointlogo"></a>
-                <a href=index.html><img class="ttpdesktoplogo" src="images/desktop-logo.png" alt="desktoplogo"></a>
+            <div class="logo-container" role="banner">
+                <a href=index.html><img class="ttpmobilelogo" src="images/desktop-logo-ttp.png" alt="theturningpointlogo" role="img"></a>
+                <a href=index.html><img class="ttpdesktoplogo" src="images/desktop-logo.png" alt="desktoplogo" role="img"></a>
             </div>
             
             <ul class="mainmenu">
-                <li><a href=products.html>Products</a></li>
-                <li><a href=contact.html>Contact Us</a></li>
+                <li class="prodnav"><a href=products.html>Products</a></li>
+                <li class="contnav"><a href=contact.html>Contact Us</a></li>
             </ul>
         </nav>
 
         <article class="productsbanner">
             
-            <img class="prodbanner" src="images/record-store-925553.jpeg" alt="recordstore">
+            <img class="prodbanner" src="images/record-store-925553.jpeg" alt="recordstore" role="img">
             
-            <div class="productstext">
+            <div class="productstext" role="contentinfo">
                 <h1>Products</h1>
             </div>
         </article>
     </header>
 
-    <main id="main">
-        <section class="mainproducts">
+    <main id="main" role="main">
+        <section class="mainproducts" role="complementary">
             
             <div class="prodrecords">
-                <article>
+                <article role="region">
                 
-                    <img class="prodrecordimg" src="images/plate-4725349.jpeg" alt="recordbin">
+                    <img class="prodrecordimg" src="images/plate-4725349.jpeg" alt="recordbin" role="img">
                     
                     <div class="recordproducttext">
                         <h1 id="recordlink">Records</h1>
@@ -68,12 +68,12 @@
             </div>
 
             <div class="prodcds">
-                <article>
+                <article role="region">
                 
-                    <img class="prodcdimg" src="images/cd-6595247.jpeg" alt="cdjewelcase">
+                    <img class="prodcdimg" src="images/cd-6595247.jpeg" alt="cdjewelcase"  id="cdlink" role="img">
                     
                     <div class="cdproducttext">
-                        <h1 id="cdlink" >CDs</h1>
+                        <h1>CDs</h1>
     
                         <p>
                             The Turning Point Ottawa music store offers thousands of CDs in Classic Rock, Alternative Rock, Soul, Jazz, Blues, Folk, Country, Alt-Country, Metal, World, Celtic, Reggae, Male & Female Vocalists, Classical and Soundtracks. Our prices range from $ 4.00 – $ 10.00. All CDs are guaranteed. We specialize in hard to find CDs,  Imports, and Box Sets not carried in conventional CD stores.
@@ -85,9 +85,9 @@
             </div>
 
             <div class="proddvds">
-                <article>
+                <article role="region">
                 
-                    <img class="proddvdimg" src="images/background-89176.jpeg" alt="scattereddvds">
+                    <img class="proddvdimg" src="images/background-89176.jpeg" alt="scattereddvds" role="img">
                     
                     <div class="dvdproducttext">
                         <h1 id="dvdlink">DVDs</h1>
@@ -104,7 +104,7 @@
         </section>
     </main>
 
-    <footer class="productsfooter">
+    <footer class="productsfooter" role="contentinfo">
         <h4>The Turning Point © 2022 All Rights Reserved</h4>
     </footer>
 </body>
